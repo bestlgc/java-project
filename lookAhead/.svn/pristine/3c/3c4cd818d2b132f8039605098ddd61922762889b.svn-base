@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.la.domain">
+	<class name="Courseware" table="tb_courseware">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="coursewareName" length="30"/>
+		<property name="coursewareSubject" length="30"/>
+		<property name="downloadNum" length="30"/>
+		<property name="coursewareScore" length="30"/>
+		<property name="coursewareState" length="30"/>
+		
+		<!-- 一对一：基于主键 -->
+		<one-to-one name="advice" cascade="all"/>
+		
+		<!-- 多对一  一课件只属于一个教师 -->
+		<many-to-one name="coursewareOwner" column="coursewareOwner"/>
+		<!-- 多对一  一课件只能被一个教研组长审核 -->
+		<many-to-one name="groupLeader" column="groupLeader"/>
+		
+		<!-- 一对多：最好设置inverse=true 一个课件可以有多个评分-->
+		<set name="scores" inverse="true">
+			
+			<key column="scoreCourseware"/>
+			<one-to-many class="Score"/>
+		</set>
+		
+		<set name="students" table="tb_student_courseware">
+			<key column="coursewares"/>
+			<many-to-many class="Student" column="students"/>
+		</set>
+	</class> 
+</hibernate-mapping>

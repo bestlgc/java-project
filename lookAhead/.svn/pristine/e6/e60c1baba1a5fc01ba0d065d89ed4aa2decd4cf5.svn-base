@@ -1,0 +1,103 @@
+package com.la.dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.la.domain.Admin;
+import com.la.domain.GroupLeader;
+@Repository
+public class LeaderDao {
+	@Autowired
+	private  SessionFactory sessionFactory;
+	
+	public  void save(GroupLeader leader) throws Exception{
+		Session session = sessionFactory.getCurrentSession();
+		session.save(leader);
+	}
+
+
+	@SuppressWarnings("unchecked")
+	public  List<GroupLeader> getList(int pageNum, int pageIndex) throws Exception{
+		int start = (pageIndex-1)*pageNum;
+		String queryString  = "from GroupLeader";
+		Query query = sessionFactory.getCurrentSession().createQuery(queryString);
+		query.setMaxResults(pageNum);
+		query.setFirstResult(start);
+		List<GroupLeader> list = query.list();
+		return list;
+	}
+	public int sizeof()throws Exception{
+		String queryString  = "SELECT count(*) FROM GroupLeader";
+		Query query = sessionFactory.getCurrentSession().createQuery(queryString);
+		Long size=  (Long) query.uniqueResult();
+		String result = size.toString();
+		return Integer.parseInt(result);
+	}
+
+
+	public void update(GroupLeader gleader)throws Exception {
+		Session session = sessionFactory.getCurrentSession();
+		session.update(gleader);
+		session.flush();
+	}
+
+
+	public GroupLeader getById(Integer id) throws Exception{
+		Session session = sessionFactory.getCurrentSession();
+		GroupLeader gLeader = (GroupLeader) session.get(GroupLeader.class, id);
+		return gLeader;
+	}
+
+
+	public void delete(GroupLeader leader) throws Exception{
+		Session session = sessionFactory.getCurrentSession();
+		session.delete(leader);
+		session.flush();
+	}
+
+
+	public void save(Admin admin) throws Exception{
+		Session session = sessionFactory.getCurrentSession();
+		session.save(admin);
+	}
+
+
+	@SuppressWarnings("unchecked")
+	public List<Admin> getAdminList(int pageNum, int pageIndex) throws Exception{
+		int start = (pageIndex-1)*pageNum;
+		String queryString  = "from Admin";
+		Query query = sessionFactory.getCurrentSession().createQuery(queryString);
+		query.setMaxResults(pageNum);
+		query.setFirstResult(start);
+		List<Admin> list = query.list();
+		return list;
+		
+	}
+
+
+	public Admin getAdminById(Integer id) throws Exception{
+		Session session = sessionFactory.getCurrentSession();
+		Admin admin = (Admin) session.get(Admin.class, id);
+		return admin;
+	}
+
+
+	public void update(Admin gleader) throws Exception{
+		Session session = sessionFactory.getCurrentSession();
+		session.update(gleader);
+		session.flush();
+	}
+
+
+	public void delete(Admin admin) {
+		Session session = sessionFactory.getCurrentSession();
+		session.delete(admin);
+		session.flush();
+	}
+		
+}

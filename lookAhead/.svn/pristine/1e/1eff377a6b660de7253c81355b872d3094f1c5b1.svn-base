@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<#assign path="${rc.contextPath}">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="${path}/css/style.css" rel="stylesheet" type="text/css" />
+<link href="${path}/css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="${path}/js/jquery.js"></script>
+<script type="text/javascript" src="${path}/js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="${path}/js/select-ui.min.js"></script>
+<script type="text/javascript" src="${path}/editor/kindeditor.js"></script>
+<script type="text/javascript" src="${path}/js/date.js"></script> 
+
+<script type="text/javascript">
+    KE.show({
+        id : 'content7',
+        cssPath : './index.css'
+    });
+  </script>
+  
+<script type="text/javascript">
+$(document).ready(function(e) {
+    $(".select1").uedSelect({
+		width : 345			  
+	});
+	$(".select2").uedSelect({
+		width : 167  
+	});
+	$(".select3").uedSelect({
+		width : 100
+	});
+});
+</script>
+</head>
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="leader_main.html">首页</a></li>
+    <li><a href="ld_lookCourse.html">课件管理</a></li>
+	<li><a href="#">任务分配</a></li>
+    </ul>
+    </div>
+    
+    <div class="formbody">
+    
+    
+    <div id="usual1" class="usual"> 
+    
+    <div class="itab">
+  	<ul> 
+    <li><a href="#tab1" class="selected">任务分配</a></li> 
+    <li><a href="#tab2">历史任务</a></li> 
+  	</ul>
+    </div> 
+    
+  	<div id="tab1" class="tabson">
+    
+    <div class="formtext">Hi，<b>team leader</b>，欢迎您体验信息发布功能！</div>
+    
+    <ul class="forminfo">
+
+	<li><label>任务标题<b>*</b></label><input name="" type="text" class="dfinput" value=""  style="width:518px;"/></li>
+   
+    <li><label>科目<b>*</b></label>  
+    
+
+    <div class="vocation">
+    <select class="select1">
+    <option>英语</option>
+    <option>数学</option>
+    <option>语文</option>
+    <option>物理</option>
+    <option>其他</option>
+    </select>
+    </div>
+    
+    </li>
+    
+    <li><label>人员<b>*</b></label>
+    
+    <div class="vocation" style="margin-top:7px;" >
+    <form action="">
+	<input type="checkbox" name="person" value="" />张三
+	<input type="checkbox" name="person" value="" />李四
+	<input type="checkbox" name="person" value="" checked="checked" />全体人员
+	</form>
+
+    </div>   
+    
+    </li>
+
+    <li><label>通知内容<b>*</b></label>
+    
+
+    <textarea id="content7" name="content" style="width:700px;height:250px;visibility:hidden;"></textarea>
+    
+    </li>
+    <li><label>&nbsp;</label><input name="" type="button" class="btn" value="马上发布"/></li>
+    </ul>
+    
+    </div> 
+    
+    
+
+
+
+  	<div id="tab2" class="tabson">
+    
+    
+    <ul class="seachform">
+    
+    <li><label>综合查询</label><input name="" type="text" class="scinput" /></li>
+    <li><label>科目</label>  
+    <div class="vocation">
+    <select class="select3">
+    <option>语文</option>
+	<option>数学</option>
+	<option>英语</option>
+    <option>其他</option>
+    </select>
+    </div>
+    </li>
+    
+    <li><label>任务接收人员</label>  
+    <div class="vocation">
+    <select class="select3">
+	<option>张三</option>
+    <option>李四</option>
+    <option>全部</option>
+    </select>
+    </div>
+    </li>
+    
+    <li><label>分配日期</label>  
+	<div class="vocation">
+	<select id="selYear" class="select3"></select> 
+	<select id="selMonth"class="select3"></select> 
+	<select id="selDay"class="select3"></select> 
+	<script type="text/javascript"> 
+	var selYear = window.document.getElementById("selYear"); 
+	var selMonth = window.document.getElementById("selMonth"); 
+	var selDay = window.document.getElementById("selDay"); 
+	// 新建一个DateSelector类的实例，将三个select对象传进去 
+	new DateSelector(selYear, selMonth, selDay); 
+	</script> 
+	</div>
+    </li>
+    
+    <li><label>&nbsp;</label><input name="" type="button" class="scbtn" value="查询"/></li>
+    
+    </ul>
+
+    
+    
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th><input name="" type="checkbox" value="" checked="checked"/></th>
+        <th>编号<i class="sort"><img src="images/px.gif" /></i></th>
+		<th>科目</th>
+        <th>任务标题</th>
+        <th>任务接收人员</th>
+        <th>分配时间</th>
+        <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <#list tasklist as list>
+        <tr>
+        <td><input name="" type="checkbox" value="" /></td>
+        <td>${list.workID}</td>
+        <td>${list.subject}</td>
+        <td>${list.title}</td>
+        <td>${list.senderName}</td>
+        <td>${list.startDate}</td>
+        <td><a href="#" class="tablelink">查看</a>     <a href="#" class="tablelink"> 删除</a></td>
+        </tr> 
+		</#list>
+
+    
+        </tbody>
+    </table>
+    
+   
+  
+    
+    </div>  
+       
+	</div> 
+ 
+	<script type="text/javascript"> 
+      $("#usual1 ul").idTabs(); 
+    </script>
+    
+    <script type="text/javascript">
+	$('.tablelist tbody tr:odd').addClass('odd');
+	</script>
+    
+    
+    
+    
+    
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+package com.la.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.la.dao.LeaderDao;
+import com.la.dao.TeacherDao;
+import com.la.domain.GroupLeader;
+import com.la.domain.Teacher;
+import com.la.view.ViewListTeacher;
+import com.la.view.ViewTeacher;
+
+@Service
+public class TeacherService {
+	@Autowired
+	private TeacherDao dao;
+	@Autowired
+	private LeaderDao leaderDao;
+	
+	public  void save(ViewTeacher vteacher, Integer glId) throws Exception {
+			Teacher teacher = new Teacher(vteacher);
+			GroupLeader groupLeader = leaderDao.getById(glId);
+			teacher.setGroupLeader(groupLeader);
+			dao.save(teacher);
+	}
+	
+	public ViewListTeacher getList(int pageNum, int pageIndex)throws Exception {
+		List<Teacher> ts = dao.getList(pageNum,pageIndex);
+		List<ViewTeacher> list = new ArrayList<ViewTeacher>();
+		for (Teacher teacher : ts) {
+			ViewTeacher vTeacher = new ViewTeacher(teacher);
+			list.add(vTeacher);
+		}
+		int totalSize = dao.sizeof();
+		ViewListTeacher viewListTeacher = new ViewListTeacher(list,pageNum,pageIndex,totalSize);
+		return viewListTeacher;
+	}
+
+	public void update(ViewTeacher teacher) throws Exception{
+		Teacher gleader = new Teacher(teacher);
+		dao.update(gleader);
+	}
+
+	public ViewTeacher getById(Integer id) throws Exception{
+		Teacher teacher = dao.getById(id);
+		ViewTeacher vteacher = new ViewTeacher(teacher);
+		return vteacher;
+	}
+
+	public void delete(Integer id) throws Exception{
+		Teacher teacher = new Teacher();
+		teacher.setId(id);
+		dao.delete(teacher);
+	}	
+}

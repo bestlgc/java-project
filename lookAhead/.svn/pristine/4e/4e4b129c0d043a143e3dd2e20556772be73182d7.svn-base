@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.la.domain">
+	<class name="CourseFile" table="tb_coursefile">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="fileName" length="30"/>
+		<property name="path" length="150"/>
+		<property name="author" length="30"/>
+		
+		
+	</class>
+</hibernate-mapping>

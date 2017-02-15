@@ -1,0 +1,59 @@
+package com.la.controller;
+
+import javax.servlet.http.HttpSession;
+
+import com.la.service.AdminLoginService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class AdminLoginController {
+	@Autowired
+	AdminLoginService loginservice;
+	@RequestMapping(value = "/loginact")
+	public String loginact(String account, String password, HttpSession session) {
+
+		if (account != null && password != null) {
+
+			if (account.length() > 10)
+				account = account.substring(0, 10);
+			if (password.length() > 10)
+				password = password.substring(0, 10);
+
+			if (loginservice.ValideLogin(account, password)) {
+
+				session.setAttribute("lgcount", account);
+				return "su_main";
+
+			} else {
+				return "su_login";
+			}
+
+		} else 
+			return "su_login";
+
+	}
+    
+    @RequestMapping("/maintop")
+	public String maintop()
+	{
+		return "su_top";
+	}
+    @RequestMapping("/mainleft")
+    public String mainLeft(){
+    	return "su_left";
+    }
+    @RequestMapping("/mainright")
+    public String mainRight(){
+    	return "su_rightMain";
+    }
+    @RequestMapping("/addUser")
+    public String addUser(){
+    	return "su_addUser";
+    }
+    @RequestMapping("/lookUser")
+    public String lookUser(){
+    	return "su_lookUser";
+    }
+}

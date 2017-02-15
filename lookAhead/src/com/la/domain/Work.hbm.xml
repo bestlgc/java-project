@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.la.domain">
+	<class name="Work" table="tb_work">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="workSubject" length="30"/>
+		<property name="workSendTime" length="30"/>
+		<property name="workDeadTime" length="30"/>
+		<property name="workState" length="30"/>
+		<!-- 多对一  一个教研组长可以布置多项课件设计任务 -->
+		<many-to-one name="workSender" column="workSender"/>
+		<!-- 多对一  一位教师可以接受多项课件设计任务 -->
+		<many-to-one name="workReceiver" column="workReceiver"/>
+	</class>
+</hibernate-mapping>

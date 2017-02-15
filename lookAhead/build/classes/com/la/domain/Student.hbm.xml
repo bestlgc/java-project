@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.la.domain">
+	<class name="Student" table="tb_student">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="username" length="30"/>
+		<property name="password" length="30"/>
+		<property name="studentName" length="50"/>
+		<property name="studentGrade" length="10"/>
+		<property name="studentSex" length="30"/>
+		<property name="studentSubject" length="10"/>
+		
+		<!-- 一对多：最好设置inverse=true 一个学生可以有多个评分-->
+		<set name="scores" inverse="true">
+			
+			<key column="scoreGiver"/>
+			<one-to-many class="Score"/>
+		</set>
+		
+		<!-- 多对多：inverse=false, 然后进行单向关联(不能双向) -->
+		<set name="coursewares" table="tb_student_courseware" >
+			
+			<key column="students"/>
+			<many-to-many class="Courseware" column="coursewares"/>
+		</set>
+	</class>
+</hibernate-mapping>

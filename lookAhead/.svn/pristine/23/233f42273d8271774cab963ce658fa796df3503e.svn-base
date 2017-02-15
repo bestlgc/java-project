@@ -1,0 +1,44 @@
+package com.la.view;
+
+import java.util.List;
+
+public class ViewListLeader {
+	private List<ViewLeader> viewll;
+	private int pageIndex;
+	private int pageNum;
+	private int totalPage;
+	public ViewListLeader(List<ViewLeader> list, int pageNum2, int pageIndex2) {
+		this.viewll = list;
+		this.pageIndex = pageIndex2;
+		this.pageNum = pageNum2;
+	}
+	public  ViewListLeader() {
+		
+	}
+	public List<ViewLeader> getViewll() {
+		return viewll;
+	}
+	public void setViewll(List<ViewLeader> viewll) {
+		this.viewll = viewll;
+	}
+	public int getPageIndex() {
+		return pageIndex;
+	}
+	public void setPageIndex(int pageIndex) {
+		this.pageIndex = pageIndex;
+	}
+	public int getPageNum() {
+		return pageNum;
+	}
+	public void setPageNum(int pageNum) {
+		this.pageNum = pageNum;
+	}
+	public int getTotalPage() {
+		return totalPage;
+	}
+	public void setTotalPage(int totalPage) {
+		this.totalPage = totalPage;
+	}
+	
+	
+}

@@ -1,0 +1,37 @@
+package com.la.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.la.domain.Student;
+import com.la.service.StuModifyService;
+import com.la.service.StudentService;
+
+@Controller
+public class StuModifyController {
+	@Autowired
+	StuModifyService modifyService;
+	@Autowired
+	private StudentService lservice;
+	@RequestMapping(value="/stu_edit")
+	public  ModelAndView stumodify(Integer sid,String password){
+		try {
+			
+			Student vstudent= lservice.getById(sid);
+			vstudent.setPassword(password);
+			lservice.update(vstudent);
+			ModelAndView mv = new ModelAndView("success");
+			mv.addObject("vstudent", vstudent);
+			return mv;
+		} catch (Exception e) {
+			e.printStackTrace();
+			ModelAndView mv = new ModelAndView("failed");
+			return mv;
+		}
+		
+		
+	}
+	
+}

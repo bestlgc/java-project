@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.la.domain">
+	<class name="CourseModel" table="tb_courseModel">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="modelSubject" length="30"/>
+		<property name="modelDirectory" length="30"/>
+		<!-- 多对一  一课件模板只属于一个教研组长 -->
+		<many-to-one name="groupOwner" column="groupOwner"/>
+		
+		<set name="teachers" table="tb_teacher_model">
+			<key column="model"/>
+			<many-to-many class="Teacher" column="teacher"/>
+		</set>
+	</class>
+</hibernate-mapping>

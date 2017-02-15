@@ -1,0 +1,117 @@
+package com.la.controller;
+import javax.servlet.http.HttpSession;
+
+import com.la.service.LeaderLoginService;
+import com.la.service.TeacherLoginService;
+import com.la.service.StudentLoginService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class LoginController {
+	@Autowired
+	LeaderLoginService loginservice;
+	@Autowired
+	TeacherLoginService tloginservice;
+	@Autowired
+	StudentLoginService sloginservice;
+	@RequestMapping(value = "/login")
+	public String loginact(String account, String password, String role, HttpSession session) 
+	{
+		if(role.equals("0"))
+		{
+		if (account != null && password != null) {
+			
+			if (account.length() > 10)
+				account = account.substring(0, 10);
+			if (password.length() > 10)
+				password = password.substring(0, 10);
+
+			if (loginservice.ValideLogin(account, password)) {
+
+				session.setAttribute("lgcount", account);
+				return "leader_main";
+
+			} else {
+				return "login";
+			}
+
+		} else 
+			return "login";
+
+	}
+				
+		
+		else if(role.equals("1"))
+		{
+		if (account != null && password != null) {
+			
+			if (account.length() > 10)
+				account = account.substring(0, 10);
+			if (password.length() > 10)
+				password = password.substring(0, 10);
+
+			if (tloginservice.ValideLogin(account, password)) {
+
+				session.setAttribute("lgcount", account);
+				return "teacher_main";
+
+			} else {
+				return "login";
+			}
+
+		} else 
+			return "login";
+
+	}
+		else if(role.equals("2"))
+		{
+		if (account != null && password != null) {
+			
+			if (account.length() > 10)
+				account = account.substring(0, 10);
+			if (password.length() > 10)
+				password = password.substring(0, 10);
+
+			if (sloginservice.ValideLogin(account, password)) {
+
+				session.setAttribute("lgcount", account);
+				return "student_main";
+
+			} else {
+				return "login";
+			}
+
+		} else 
+			return "login";
+
+	}
+		else 
+			return "login";
+}
+	
+	
+    
+    @RequestMapping("/leader_top")
+	public String leader_top()
+	{
+		return "leader_top";
+	}
+    @RequestMapping("/leader_left")
+    public String leader_Left(){
+    	return "leader_left";
+    }
+    @RequestMapping("/leader_rightMain")
+    public String leader_Right(){
+    	return "leader_rightMain";
+    }
+    @RequestMapping("/leader_addUser")
+    public String leader_addUser(){
+    	return "leader_addUser";
+    }
+    @RequestMapping("/leader_lookUser")
+    public String leader_lookUser(){
+    	return "leader_lookUser";
+    }
+}

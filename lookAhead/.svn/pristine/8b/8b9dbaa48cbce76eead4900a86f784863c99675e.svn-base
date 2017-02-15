@@ -1,0 +1,32 @@
+package com.la.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.la.dao.LeaderDao;
+import com.la.domain.GroupLeader;
+import com.la.view.ViewLeader;
+import com.la.view.ViewListLeader;
+
+@Service
+public class LeaderService {
+	@Autowired
+	private LeaderDao dao;
+	public  void save(ViewLeader vleader) throws Exception {
+			GroupLeader leader = new GroupLeader(vleader);
+			dao.save(leader);
+	}
+	public ViewListLeader getList(int pageNum, int pageIndex)throws Exception {
+		List<GroupLeader> lgroup = dao.getList(pageNum,pageIndex);
+		List<ViewLeader> list = null;
+		for (GroupLeader groupLeader : lgroup) {
+			ViewLeader leader = new ViewLeader(groupLeader);
+			list.add(leader);
+		}
+		
+		ViewListLeader viewListLeader = new ViewListLeader(list,pageNum,pageIndex);
+		return viewListLeader;
+	}	
+}

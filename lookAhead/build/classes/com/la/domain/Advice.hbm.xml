@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.la.domain">
+	<class name="Advice" table="tb_advice">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="title" length="30"/>
+		<property name="content" length="300"/>
+		<property name="adviceState" length="30"/>
+		
+		<one-to-one name="courseware" constrained="true"/>
+		
+		<!-- 多对一  一位教研组长可以提出多条意见 -->
+		<many-to-one name="adviceGiver" column="adviceGiver"/>
+		<!-- 多对一  一位教师可以接收多条意见 -->
+		<many-to-one name="adviceReceiver" column="adviceReceiver"/>
+	</class>
+</hibernate-mapping>

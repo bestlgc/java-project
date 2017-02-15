@@ -1,0 +1,119 @@
+package com.la.service;
+
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataInputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IOUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.la.dao.CourseFileDao;
+import com.la.domain.CourseFile;
+import com.la.domain.Teacher;
+import com.la.view.ViewListTeacher;
+import com.la.view.ViewTeacher;
+
+
+
+@Service("uploadFileService")
+public class CourseFileService {
+	@Autowired
+	private CourseFileDao dao;
+	final String uri = "hdfs://192.168.217.128:9000/yunFile/";
+	
+//	@Autowired
+//	@Qualifier("courseDAO")
+	//ICourseWareDAO courseWareDAO;
+	/*
+	@Override
+	public boolean uploadCourseWare(MultipartFile file, int teacherID, int courseID, String description) {
+		String fileName = file.getOriginalFilename();
+		if(file.isEmpty() || fileName == null || fileName.equals("")) {
+			return false;
+		}
+		String path = this.uploadFile(file);
+		if(path == null || path.equals("")) {
+			return false;
+		}
+		CourseWare courseWare = new CourseWare();
+		Timestamp time = new Timestamp(new Date().getTime());
+		courseWare.setAddress(path);
+		courseWare.setCourseID(courseID);
+		courseWare.setCreateDate(time);
+		courseWare.setDescription(description);
+		courseWare.setName(fileName);
+		courseWare.setTeacherID(teacherID);
+		
+		courseWareDAO.upload(courseWare);
+		
+		return true;
+	}
+	*/
+	public String uploadFile(MultipartFile file , CourseFile course) {
+		String fileName = file.getOriginalFilename();
+		//使用UUID生成文件夹名
+		String target = uri + UUID.randomUUID().toString() + "/" + fileName;
+		try {
+			//上传
+			
+			InputStream in = file.getInputStream();
+			Configuration conf = new Configuration();
+
+			FileSystem fs = FileSystem.get(URI.create(target), conf);
+			OutputStream out = fs.create(new Path(target));
+			IOUtils.copyBytes(in, out, 4096, true);
+			
+			//数据库操作
+			course.setFileName(fileName);
+			course.setPath(target);
+			dao.save(course);
+			
+			return target;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
+	
+	public List<CourseFile> getList(int pageNum, int pageIndex)throws Exception {
+		List<CourseFile> ts = dao.getList(pageNum,pageIndex);
+		return ts;
+	}
+	
+	public CourseFile getCourseFileByID(int courseID) throws Exception {
+		CourseFile courseWare = dao.getById(courseID);
+		return courseWare;
+	}
+
+	
+	
+	public File downloadFile(String path, String fileName) {
+		try {
+			Configuration conf = new Configuration();
+			FileSystem fs = FileSystem.get(URI.create(path), conf);
+			
+			FSDataInputStream input = fs.open(new Path(path));
+			File tmpFile = new File(fileName);
+			OutputStream out = new FileOutputStream(tmpFile);
+			IOUtils.copyBytes(input, out, 4096, true);
+			return tmpFile;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return null;
+		}
+	}
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.la.domain">
+	<class name="GroupLeader" table="tb_groupLeader">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="account" length="30"/>
+		<property name="password" length="30"/>
+		<property name="groupLeaderName" length="30"/>
+		<property name="groupLeaderSex" length="30"/>
+		<property name="groupLeaderState" length="30"/>
+		<property name="groupLeaderSubject" length="30"/>
+		<property name="groupLeaderEmail" length="30"/>
+		
+		<!-- 一对多：最好设置inverse=true 一个教研组长管理多个教师-->
+		<set name="teachers" inverse="true">
+			
+			<key column="groupLeader"/>
+			<one-to-many class="Teacher"/>
+		</set>
+		<!-- 一对多：最好设置inverse=true 一个教研组长可以上传多个课件模板-->
+		<set name="models" inverse="true">
+			
+			<key column="groupOwner"/>
+			<one-to-many class="CourseModel"/>
+		</set>
+		
+		<!-- 一对多：最好设置inverse=true 一个教研组长可以分配多个课件设计任务-->
+		<set name="works" inverse="true">
+			
+			<key column="workSender"/>
+			<one-to-many class="Work"/>
+		</set>
+		
+		<!-- 一对多：最好设置inverse=true 一个教研组长可以审核多个课件-->
+		<set name="coursewares" inverse="true">
+			
+			<key column="groupLeader"/>
+			<one-to-many class="Courseware"/>
+		</set>
+		
+		<!-- 一对多：最好设置inverse=true 一个教研组长可以提出多条意见-->
+		<set name="advices" inverse="true">
+			
+			<key column="adviceGiver"/>
+			<one-to-many class="Advice"/>
+		</set>
+	</class>
+</hibernate-mapping>

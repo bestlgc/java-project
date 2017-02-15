@@ -1,0 +1,42 @@
+package com.la.dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.la.domain.GroupLeader;
+@Repository
+public class LeaderDao {
+	@Autowired
+	private  SessionFactory sessionFactory;
+	
+	
+	public  void save(GroupLeader leader) throws Exception{
+		Session session = sessionFactory.getCurrentSession();
+		session.save(leader);
+	}
+
+
+	@SuppressWarnings("unchecked")
+	public  List<GroupLeader> getList(int pageNum, int pageIndex) throws Exception{
+		int start = (pageIndex-1)*pageNum;
+//		int end  = pageIndex*pageNum;
+		String queryString  = "from GroupLeader";
+		Query query = sessionFactory.getCurrentSession().createQuery(queryString);
+		query.setMaxResults(pageNum);
+		query.setFirstResult(start);
+		List<GroupLeader> list = query.list();
+		return list;
+	}
+	public int sizeof()throws Exception{
+		String queryString  = "SELECT count(*) FROM GroupLeader";
+		Query query = sessionFactory.getCurrentSession().createQuery(queryString);
+		Long size=  (Long) query.uniqueResult();
+		String result = size.toString();
+		return Integer.parseInt(result);
+	}
+}

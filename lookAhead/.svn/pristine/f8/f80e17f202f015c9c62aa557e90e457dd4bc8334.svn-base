@@ -1,0 +1,88 @@
+package com.la.view;
+
+import com.la.domain.GroupLeader;
+import com.la.domain.Teacher;
+public class ViewTeacher {
+	private Integer id;
+	private String account;
+	private String password;
+	private String name;
+	private String sex;
+	private String subject;
+	private String state;
+	private String email;
+	private GroupLeader groupLeader;
+	
+	public ViewTeacher() {
+		
+	}
+	
+	public ViewTeacher(Teacher teacher) {
+			this.account = teacher.getAccount();
+			this.email = teacher.getTeacherEmail();
+			this.groupLeader = teacher.getGroupLeader();
+			this.id = teacher.getId();
+			this.name = teacher.getTeacherName();
+			this.password = teacher.getPassword();
+			this.sex = teacher.getTeacherSex();
+			this.state = teacher.getTeacherState();
+			this.subject = teacher.getTeacherSubject();
+	}
+
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getAccount() {
+		return account;
+	}
+	public void setAccount(String account) {
+		this.account = account;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+	public String getSubject() {
+		return subject;
+	}
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public GroupLeader getGroupLeader() {
+		return groupLeader;
+	}
+	public void setGroupLeader(GroupLeader groupLeader) {
+		this.groupLeader = groupLeader;
+	}
+	
+	
+}

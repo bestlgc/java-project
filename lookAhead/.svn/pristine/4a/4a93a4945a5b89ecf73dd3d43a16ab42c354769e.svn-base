@@ -1,0 +1,33 @@
+package com.la.domain;
+//评分
+public class Score {
+	private Integer id;
+	private Student scoreGiver;//评分人，即某位学生
+	private Courseware scoreCourseware;//被评分的课件
+	private String score;//所评分数，分数1-5分，1分代表非常不满意；2分代表不满意；3分代表一般；4分代表基本满意；5分代表非常满意。数据库的课件表中，修改该课件的分数值。
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public Student getScoreGiver() {
+		return scoreGiver;
+	}
+	public void setScoreGiver(Student scoreGiver) {
+		this.scoreGiver = scoreGiver;
+	}
+	public Courseware getScoreCourseware() {
+		return scoreCourseware;
+	}
+	public void setScoreCourseware(Courseware scoreCourseware) {
+		this.scoreCourseware = scoreCourseware;
+	}
+	public String getScore() {
+		return score;
+	}
+	public void setScore(String score) {
+		this.score = score;
+	}
+	
+}

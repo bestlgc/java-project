@@ -1,0 +1,111 @@
+package com.la.domain;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import com.la.view.ViewLeader;
+//�����鳤
+public class GroupLeader {
+	private Integer id;
+	private String account;//�������鳤�˺�
+	private String password;//�������鳤����
+	private String groupLeaderName;//�������鳤����
+	private String groupLeaderSex;//�������鳤�Ա�
+	private String groupLeaderState;//�������鳤״̬��0��ʾ��ְ��1��ʾ��ְ
+	private String groupLeaderSubject;//�������鳤������Ŀ
+	private String groupLeaderEmail;//�������鳤������
+	private Set<Teacher> teachers=new HashSet<Teacher>();//һ�������鳤��������ʦ
+	private Set<CourseModel> models=new HashSet<CourseModel>();//һ�������鳤�����ϴ�����μ�ģ��
+	private Set<Work> works=new HashSet<Work>();//һ�������鳤���Է������μ��������
+	private Set<Courseware> coursewares=new HashSet<Courseware>();//һ�������鳤������˶���μ�
+	private Set<Advice> advices=new HashSet<Advice>();
+	public GroupLeader() {
+	}
+	public GroupLeader(ViewLeader vleader) {
+		this.account = vleader.getAccount();
+		this.password = vleader.getPassword();
+		this.groupLeaderName = vleader.getName();
+		this.groupLeaderSex = vleader.getSex();
+		this.groupLeaderState = vleader.getState();
+		this.groupLeaderSubject = vleader.getSubject();
+		this.groupLeaderEmail = vleader.getEmail();
+	}
+	public Set<Advice> getAdvices() {
+		return advices;
+	}
+	public void setAdvices(Set<Advice> advices) {
+		this.advices = advices;
+	}
+	public Set<Courseware> getCoursewares() {
+		return coursewares;
+	}
+	public void setCoursewares(Set<Courseware> coursewares) {
+		this.coursewares = coursewares;
+	}
+	public Set<Teacher> getTeachers() {
+		return teachers;
+	}
+	public Set<Work> getWorks() {
+		return works;
+	}
+	public void setWorks(Set<Work> works) {
+		this.works = works;
+	}
+	public void setTeachers(Set<Teacher> teachers) {
+		this.teachers = teachers;
+	}
+	public Set<CourseModel> getModels() {
+		return models;
+	}
+	public void setModels(Set<CourseModel> models) {
+		this.models = models;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getAccount() {
+		return account;
+	}
+	public void setAccount(String account) {
+		this.account = account;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getGroupLeaderName() {
+		return groupLeaderName;
+	}
+	public void setGroupLeaderName(String groupLeaderName) {
+		this.groupLeaderName = groupLeaderName;
+	}
+	public String getGroupLeaderSex() {
+		return groupLeaderSex;
+	}
+	public void setGroupLeaderSex(String groupLeaderSex) {
+		this.groupLeaderSex = groupLeaderSex;
+	}
+	public String getGroupLeaderState() {
+		return groupLeaderState;
+	}
+	public void setGroupLeaderState(String groupLeaderState) {
+		this.groupLeaderState = groupLeaderState;
+	}
+	public String getGroupLeaderSubject() {
+		return groupLeaderSubject;
+	}
+	public void setGroupLeaderSubject(String groupLeaderSubject) {
+		this.groupLeaderSubject = groupLeaderSubject;
+	}
+	public String getGroupLeaderEmail() {
+		return groupLeaderEmail;
+	}
+	public void setGroupLeaderEmail(String groupLeaderEmail) {
+		this.groupLeaderEmail = groupLeaderEmail;
+	}
+}

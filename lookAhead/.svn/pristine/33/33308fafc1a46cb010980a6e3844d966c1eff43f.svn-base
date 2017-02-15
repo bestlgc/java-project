@@ -1,0 +1,27 @@
+package com.la.controller;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+import com.la.domain.Student;
+import com.la.service.StuLookService;
+
+@Controller
+public class StuLookController {
+	@Autowired
+	StuLookService lookService;
+	@RequestMapping(value="/stu_lookAdmin")
+	public ModelAndView studentlook(Student student,HttpServletRequest request){
+		List<Student> list=lookService.getList(student);
+		ModelAndView mv = new ModelAndView("stu_lookAdmin");
+		request.setAttribute("inf", list);
+//		mv.addObject("inf", list);
+		return mv;
+	}
+	
+}

@@ -1,0 +1,100 @@
+package com.la.domain;
+
+import java.util.HashSet;
+import java.util.Set;
+
+//教师
+public class Teacher {
+	private Integer id;
+	private String account;//教师账号
+	private String password;//教师密码
+	private String teacherName;//教师姓名
+	private String teacherSex;//教师性别
+	private String teacherSubject;//教师所在教研组科目（如英语组，数学组等）
+	private String teacherState;//教师状态0表示待定，1表示正常,当该教师所属教研组的组长离职时，teacherState由1变为0
+	private String teacherEmail;//教师的邮箱
+	private GroupLeader groupLeader;//一个教师属于一个教研组长管理
+	private Set<Work> works=new HashSet<Work>();//一个教师可以接收多项课件设计任务
+	private Set<CourseModel> models=new HashSet<CourseModel>();//一个教师可以使用多个课件模板
+	private Set<Courseware> coursewares=new HashSet<Courseware>();//一个教师可以上传多个课件
+	private Set<Advice> advices=new HashSet<Advice>();//一个教师可以接受多条意见
+	public Set<Advice> getAdvices() {
+		return advices;
+	}
+	public void setAdvices(Set<Advice> advices) {
+		this.advices = advices;
+	}
+	public Set<CourseModel> getModels() {
+		return models;
+	}
+	public void setModels(Set<CourseModel> models) {
+		this.models = models;
+	}
+	public Set<Courseware> getCoursewares() {
+		return coursewares;
+	}
+	public void setCoursewares(Set<Courseware> coursewares) {
+		this.coursewares = coursewares;
+	}
+	public GroupLeader getGroupLeader() {
+		return groupLeader;
+	}
+	public void setGroupLeader(GroupLeader groupLeader) {
+		this.groupLeader = groupLeader;
+	}
+	public Set<Work> getWorks() {
+		return works;
+	}
+	public void setWorks(Set<Work> works) {
+		this.works = works;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getAccount() {
+		return account;
+	}
+	public void setAccount(String account) {
+		this.account = account;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getTeacherName() {
+		return teacherName;
+	}
+	public void setTeacherName(String teacherName) {
+		this.teacherName = teacherName;
+	}
+	public String getTeacherSex() {
+		return teacherSex;
+	}
+	public void setTeacherSex(String teacherSex) {
+		this.teacherSex = teacherSex;
+	}
+	public String getTeacherSubject() {
+		return teacherSubject;
+	}
+	public void setTeacherSubject(String teacherSubject) {
+		this.teacherSubject = teacherSubject;
+	}
+	public String getTeacherState() {
+		return teacherState;
+	}
+	public void setTeacherState(String teacherState) {
+		this.teacherState = teacherState;
+	}
+	public String getTeacherEmail() {
+		return teacherEmail;
+	}
+	public void setTeacherEmail(String teacherEmail) {
+		this.teacherEmail = teacherEmail;
+	}
+	
+}

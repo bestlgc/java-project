@@ -1,0 +1,57 @@
+package com.la.domain;
+
+import java.util.Date;
+
+//课件设计任务
+public class Work {
+	private Integer id;
+	private GroupLeader workSender;//课件设计任务发出者，即教研组长
+	private Teacher workReceiver;//课件设计任务接收站，即教师
+	private String workSubject;//课件设计任务所属科目
+	private String workSendTime;//课件设计任务发送时间
+	private String workDeadTime;//课件设计任务截止日期
+	private String workState;//课件设计任务的状态，0表示未接收，1表示已接收
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public GroupLeader getWorkSender() {
+		return workSender;
+	}
+	public void setWorkSender(GroupLeader workSender) {
+		this.workSender = workSender;
+	}
+	public Teacher getWorkReceiver() {
+		return workReceiver;
+	}
+	public void setWorkReceiver(Teacher workReceiver) {
+		this.workReceiver = workReceiver;
+	}
+	public String getWorkSubject() {
+		return workSubject;
+	}
+	public void setWorkSubject(String workSubject) {
+		this.workSubject = workSubject;
+	}
+	public String getWorkSendTime() {
+		return workSendTime;
+	}
+	public void setWorkSendTime(String workSendTime) {
+		this.workSendTime = workSendTime;
+	}
+	public String getWorkDeadTime() {
+		return workDeadTime;
+	}
+	public void setWorkDeadTime(String workDeadTime) {
+		this.workDeadTime = workDeadTime;
+	}
+	public String getWorkState() {
+		return workState;
+	}
+	public void setWorkState(String workState) {
+		this.workState = workState;
+	}
+	
+}

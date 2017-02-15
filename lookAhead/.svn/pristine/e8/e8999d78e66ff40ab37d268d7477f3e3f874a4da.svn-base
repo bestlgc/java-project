@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.la.domain">
+	<class name="Teacher" table="tb_teacher">
+		<id name="id">
+			<generator class="native" />
+		</id>
+		<property name="account" length="30" />
+		<property name="password" length="30" />
+		<property name="teacherName" length="50" />
+		<property name="teacherSex" length="10" />
+		<property name="teacherSubject" length="30" />
+		<property name="teacherState" length="10" />
+		<property name="teacherEmail" length="30" />
+		<!-- 多对一 一个教师只属于一个教研组长管理 -->
+		<many-to-one name="groupLeader" column="groupLeader" />
+		<!-- 一对多：最好设置inverse=true 一个教师可以接收多项任务 -->
+		<set name="works" inverse="true">
+
+			<key column="workReceiver" />
+			<one-to-many class="Work" />
+		</set>
+
+		<!-- 多对多：inverse=false, 然后进行单向关联(不能双向) -->
+		<set name="models" table="tb_teacher_model">
+
+			<key column="teacher" />
+			<many-to-many class="CourseModel" column="model" />
+		</set>
+
+		<!-- 一对多：最好设置inverse=true 一个教师可以上传多个课件 -->
+		<set name="coursewares" inverse="true">
+
+			<key column="coursewareOwner" />
+			<one-to-many class="Courseware" />
+		</set>
+
+		<!-- 一对多：最好设置inverse=true 一个教师可以接收多条意见 -->
+		<set name="advices" inverse="true">
+
+			<key column="adviceReceiver" />
+			<one-to-many class="Advice" />
+		</set>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,98 @@
+package com.la.domain;
+
+import java.util.HashSet;
+import java.util.Set;
+//教研组长
+public class GroupLeader {
+	private Integer id;
+	private String account;//教研组组长账号
+	private String password;//教研组组长密码
+	private String groupLeaderName;//教研组组长姓名
+	private String groupLeaderSex;//教研组组长性别
+	private String groupLeaderState;//教研组组长状态：0表示离职，1表示在职
+	private String groupLeaderSubject;//教研组组长所属科目
+	private String groupLeaderEmail;//教研组组长的邮箱
+	private Set<Teacher> teachers=new HashSet<Teacher>();//一个教研组长管理多个教师
+	private Set<CourseModel> models=new HashSet<CourseModel>();//一个教研组长可以上传多个课件模板
+	private Set<Work> works=new HashSet<Work>();//一个教研组长可以分配多个课件设计任务
+	private Set<Courseware> coursewares=new HashSet<Courseware>();//一个教研组长可以审核多个课件
+	private Set<Advice> advices=new HashSet<Advice>();
+	public Set<Advice> getAdvices() {
+		return advices;
+	}
+	public void setAdvices(Set<Advice> advices) {
+		this.advices = advices;
+	}
+	public Set<Courseware> getCoursewares() {
+		return coursewares;
+	}
+	public void setCoursewares(Set<Courseware> coursewares) {
+		this.coursewares = coursewares;
+	}
+	public Set<Teacher> getTeachers() {
+		return teachers;
+	}
+	public Set<Work> getWorks() {
+		return works;
+	}
+	public void setWorks(Set<Work> works) {
+		this.works = works;
+	}
+	public void setTeachers(Set<Teacher> teachers) {
+		this.teachers = teachers;
+	}
+	public Set<CourseModel> getModels() {
+		return models;
+	}
+	public void setModels(Set<CourseModel> models) {
+		this.models = models;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getAccount() {
+		return account;
+	}
+	public void setAccount(String account) {
+		this.account = account;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getGroupLeaderName() {
+		return groupLeaderName;
+	}
+	public void setGroupLeaderName(String groupLeaderName) {
+		this.groupLeaderName = groupLeaderName;
+	}
+	public String getGroupLeaderSex() {
+		return groupLeaderSex;
+	}
+	public void setGroupLeaderSex(String groupLeaderSex) {
+		this.groupLeaderSex = groupLeaderSex;
+	}
+	public String getGroupLeaderState() {
+		return groupLeaderState;
+	}
+	public void setGroupLeaderState(String groupLeaderState) {
+		this.groupLeaderState = groupLeaderState;
+	}
+	public String getGroupLeaderSubject() {
+		return groupLeaderSubject;
+	}
+	public void setGroupLeaderSubject(String groupLeaderSubject) {
+		this.groupLeaderSubject = groupLeaderSubject;
+	}
+	public String getGroupLeaderEmail() {
+		return groupLeaderEmail;
+	}
+	public void setGroupLeaderEmail(String groupLeaderEmail) {
+		this.groupLeaderEmail = groupLeaderEmail;
+	}
+}
