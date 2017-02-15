@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;aea&apos;&#x0D;&#x0A;- Original project: &apos;aea&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.didi.main.AeaCrawer.java&#x0D;&#x0A;     com.didi.main.AeaDao.java&#x0D;&#x0A;     com.didi.main.Attendee.java&#x0D;&#x0A;     com.didi.main.SubAea.java" description="Delete elements" element1="/&lt;com.didi.main{AeaCrawer.java" element2="/&lt;com.didi.main{SubAea.java" element3="/&lt;com.didi.main{Attendee.java" element4="/&lt;com.didi.main{AeaDao.java" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1481796469957" subPackages="false" version="1.0"/>
+</session>

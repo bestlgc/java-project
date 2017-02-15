@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="key = tagkey2014IFC"/>
+			<item value="Developing Rigid Airport "/>
+			<item value="Developing Rigid Airport Pavement Multiple-Slab Response Models for Top-Down Cracking Mode using Artificial Neural Networks"/>
+			<item value="google"/>
+			<item value="EOPException"/>
+			<item value="Exception"/>
+			<item value="import com.primeton.pub.common.util.JsonUtil;"/>
+			<item value="iphone5"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Exception"/>
+			<item value=""/>
+			<item value="import com.la.logic.dao.JsonUtil;"/>
+			<item value="ConnectionManager.java"/>
+			<item value="英语"/>
+			<item value="材料"/>
+			<item value="机械"/>
+			<item value="teacher"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="966" key="DIALOG_X_ORIGIN"/>
+		<item value="242" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.primeton.eop.dbproxy.client&apos; to &apos;com.huadi.lookahead.dbproxy.client/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;com.primeton.eop.dbproxy.client&apos;&#x0D;&#x0A;- Destination element: &apos;com.huadi.lookahead.dbproxy.client/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;com.primeton.eop.dbproxy.client/src/main/java/com.primeton.eop.dbproxy.client&apos;" description="Copy package" destination="=com.huadi.lookahead.dbproxy.client/src\/main\/java" element1="/src\/main\/java&lt;com.primeton.eop.dbproxy.client" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1456831446099" version="1.0"/>
+</session>

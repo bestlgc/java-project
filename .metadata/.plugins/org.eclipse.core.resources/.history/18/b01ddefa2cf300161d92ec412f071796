@@ -1,0 +1,36 @@
+package trb;
+
+import java.util.List;
+
+public class TRBDetail {
+	private String date;
+	private String title;
+	private List<String> authors;
+	private String recordType;
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public List<String> getAuthors() {
+		return authors;
+	}
+	public void setAuthors(List<String> authors) {
+		this.authors = authors;
+	}
+	public String getRecordType() {
+		return recordType;
+	}
+	public void setRecordType(String recordType) {
+		this.recordType = recordType;
+	}
+	
+	
+}

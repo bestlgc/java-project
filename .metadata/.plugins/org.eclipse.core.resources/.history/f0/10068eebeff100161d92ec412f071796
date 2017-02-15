@@ -1,0 +1,87 @@
+package trb;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import org.htmlcleaner.HtmlCleaner;
+import org.htmlcleaner.TagNode;
+
+public class TRBCrawer {
+	public static Map<String,Integer> authorMap = new HashMap<String, Integer>();
+	
+	public TRBCrawer() {
+		
+	}
+	public static void craw() {
+		int start  = 1130822;
+		int end = 1439069;
+		HtmlCleaner cleaner = new HtmlCleaner();
+		for (int i = start; i <=end; i++) {
+			String url = "http://pubsindex.trb.org/view/2017/C/" + i;
+			try {
+				URL url2 = new URL(url);
+				TagNode node = cleaner.clean(url2);
+				Object object[] = node.evaluateXPath("//*[@id='publicationView']/div[2]/div[2]/div/text()");
+				//accessNumber
+				StringBuilder accessNumber = new StringBuilder("0000000");
+				if (object.length>=1) {
+					accessNumber = (StringBuilder )object[0];
+					System.out.println(accessNumber);
+				}
+				//作者列表
+				Object authorObject[] = node.evaluateXPath("//*[@id='publicationView']/div[2]/div[9]/div/div[1]/h6/text()");
+				for (Object author : authorObject) {
+					StringBuilder authorBuilder = (StringBuilder)author;
+					if (authorMap.containsKey(authorBuilder)) {
+						String authorString  = (String) authorBuilder.toString();
+						authorMap.put(authorString, authorMap.get(authorBuilder) + 1);
+					}else {
+						String authorString  = (String) authorBuilder.toString();
+						authorMap.put(authorString,1);
+					}
+				}
+								
+			} catch (Exception e) {				
+				e.printStackTrace();				
+			}
+		}
+	}
+	
+	public static void print() throws IOException {
+		File file = new File("E:\\haha.csv");
+		
+		BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+		for (Map.Entry<String, Integer> entry:authorMap.entrySet()) {
+			writer.write(entry.getKey()+";"+entry.getValue()+"\r\n");
+		}
+		
+	}
+	
+	public static void sort() {
+		List<Map.Entry<String, Integer>> list = new ArrayList<Map.Entry<String,Integer>>(authorMap.entrySet());
+		Collections.sort(list, new Comparator<Map.Entry<String, Integer>>() {
+			public int compare(Entry<String, Integer> o1,
+                    Entry<String, Integer> o2) {
+                return o1.getValue().compareTo(o2.getValue());
+            }
+		});
+	}
+	
+	public static void main(String[] args) {
+		craw();
+		
+		sort();
+	}
+}

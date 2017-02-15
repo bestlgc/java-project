@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;myhadoop/src/myhadoop.test.demo1&apos;&#x0D;&#x0A;- Original project: &apos;myhadoop&apos;&#x0D;&#x0A;- Destination element: &apos;myhadoop/src/myhadoop.test.demo1&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     App.java&#x0D;&#x0A;     upload.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;myhadoop.test.demo1" element1="/src&lt;{App.java" element2="/src&lt;{upload.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1456303186848" units="2" version="1.0"/>
+</session>

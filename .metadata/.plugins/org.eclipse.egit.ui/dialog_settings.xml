@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="1" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://git.oschina.net/onewen/onewencatch.git"/>
+		<item value="git://source.ffmpeg.org/ffmpeg.git"/>
+		<item value="http://git%20clone%20git://source.ffmpeg.org/ffmpeg.git%20ffmpeg/git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>

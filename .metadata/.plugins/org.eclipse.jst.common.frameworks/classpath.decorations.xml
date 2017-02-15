@@ -1,0 +1,7 @@
+<classpath>
+  <container id="lzjtdx!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/workspace/lzjtdx/WebContent/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar">
+      <source-attachment-path>/lzjtdx/WebContent/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

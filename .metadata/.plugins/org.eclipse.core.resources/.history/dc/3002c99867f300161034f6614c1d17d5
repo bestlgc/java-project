@@ -1,0 +1,89 @@
+package nips;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.net.URL;
+
+import org.htmlcleaner.HtmlCleaner;
+import org.htmlcleaner.TagNode;
+
+public class NIPSConference {
+	public static void main(String[] args) throws Exception {  
+        HtmlCleaner cleaner = new HtmlCleaner();  
+        URL url = new URL("https://nips.cc/Conferences/2016/Schedule");
+        File file = new File("E:/nipsconference2016.csv");
+        BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+        
+        TagNode node = cleaner.clean(url);
+        String[] strTypes = {"InvitedTalk","Tutorial","Poster","Oral","Demonstration","Workshop","Symposium"};
+        for (String string : strTypes) {
+        	String xpath = "//div[@class='maincard narrower "+string+"']";
+			Object[] ns = node.evaluateXPath(xpath);
+	        int count = 0;
+	        for(Object on : ns) {
+	            TagNode n = (TagNode) on;
+	            Object[] paperIdObject = n.evaluateXPath("/@id");
+	            String paperId =(String) paperIdObject[0];
+	            String papString = paperId.substring(9);
+	            String showEvent = "https://nips.cc/Conferences/2016/Schedule?showEvent="+papString;
+	            Object[] titleObject = n.evaluateXPath("/div[@class='maincardBody']/text()");
+	            StringBuilder title = (StringBuilder)titleObject[0];
+	            writer.write(title+",");
+	            
+	            writer.write(string+",");
+	            
+//	            Object[] tutoial = n.evaluateXPath("//div[class='pull-right maincardHeader maincardType']/text()");
+//	            if (tutoial.length>0) {
+//	            	StringBuilder builder = (StringBuilder)tutoial[0];
+//	                writer.write(builder+",");
+//				}
+	            
+	            //获取事件页面。
+	            URL url2 = new URL(showEvent);
+	            TagNode eventNode = cleaner.clean(url2);
+	            //摘要里面包含逗号。
+	            //writer.write(abstractText+",");
+	            
+	            Object[] AuthorsLink = eventNode.evaluateXPath("//main[@id='main']//button/@onclick");
+	            for (Object object : AuthorsLink) {
+					String author =(String) object;
+					String[] list = author.split("'");
+					String speakerId = "";
+					if (list.length>1) {
+						speakerId = list[1];
+					}
+					String speakerLink = "https://nips.cc/Conferences/2016/Schedule?showSpeaker="+speakerId;
+					URL url3 = new URL(speakerLink);
+					TagNode speakerNode = cleaner.clean(url3);
+					Object authorOject[] = speakerNode.evaluateXPath("//div[@class='maincard Remark col-sm-12']/h3/text()");
+					if (authorOject.length>0) {
+						StringBuilder authorStr = (StringBuilder)authorOject[0];
+						writer.write(authorStr+",");
+					}
+					
+					Object organizationObject[] = speakerNode.evaluateXPath("//div[@class='maincard Remark col-sm-12']/h4/text()");
+					if (organizationObject.length>0) {
+						StringBuilder builder = (StringBuilder)organizationObject[0];
+						writer.write(builder+",");		
+					}
+							
+				}
+	            writer.newLine();
+	            writer.flush();
+	            count++;
+	            System.out.println(count);
+	        }  
+	       
+	        
+		}
+        writer.close();
+        
+    }  
+	
+	public static void main1(String[] args) {
+		String haha = "showSpeaker('5311-6199');";
+		String[] list = haha.split("'");
+		System.out.println(list[1]);
+	}
+}

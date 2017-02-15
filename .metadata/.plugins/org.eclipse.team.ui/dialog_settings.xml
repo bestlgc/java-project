@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SynchronizeViewSettings">
+		<item value="1457506665856" key="lastactiveparticipant_sec_id"/>
+		<item value="org.eclipse.team.svn.ui.synchronize.update.SynchronizeModelParticipant" key="lastactiveparticipant_id"/>
+		<item value="false" key="linkWithEditor"/>
+		<section name="org.eclipse.team.svn.ui.synchronize.update.SynchronizeModelParticipant.1457506188399">
+		</section>
+		<section name="org.eclipse.team.svn.ui.synchronize.update.SynchronizeModelParticipant.1457506037158">
+		</section>
+		<section name="org.eclipse.team.svn.ui.synchronize.update.SynchronizeModelParticipant.1457506631879">
+		</section>
+		<section name="org.eclipse.team.svn.ui.synchronize.update.SynchronizeModelParticipant.1457506665856">
+			<item value="org.eclipse.team.ui.activeModelProvider" key="org.eclipse.team.ui.activeModelProvider"/>
+		</section>
+	</section>
+	<section name="SynchronizeWizard">
+	</section>
+</section>

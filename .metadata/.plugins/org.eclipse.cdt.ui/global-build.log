@@ -1,0 +1,16 @@
+21:08:55 **** Rebuild of configuration Debug for project Hello ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o Hello.exe test.o 
+Info: Nothing to build for Hello
+20:29:07 **** Rebuild of configuration Debug for project Hello ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o Hello.exe test.o 
+11:31:36 **** Rebuild of configuration Debug for project Hello ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o Hello.exe test.o 
+Info: Nothing to build for Hello
+Info: Nothing to build for Hello
+Info: Nothing to build for Hello

@@ -1,0 +1,13 @@
+package trb;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TRPartCAnalyser {
+	public static Map<String, Integer> authorMap = new HashMap<String, Integer>() ;
+	
+	public static void readAuthors() {
+		
+	}
+	
+}

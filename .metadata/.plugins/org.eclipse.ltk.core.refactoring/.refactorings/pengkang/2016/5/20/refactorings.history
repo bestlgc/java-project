@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;demo.ftl&apos; to &apos;pengkang&apos;&#x0D;&#x0A;- Original project: &apos;pengkang&apos;&#x0D;&#x0A;- Destination element: &apos;pengkang&apos;&#x0D;&#x0A;- Original element: &apos;demo.ftl&apos;" description="Copy file" element1="WebContent/WEB-INF/view/pengkang/demo.ftl" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1463012341261" target="/pengkang/WebContent/WEB-INF/view/pengkang" units="0" version="1.0"/>
+</session>

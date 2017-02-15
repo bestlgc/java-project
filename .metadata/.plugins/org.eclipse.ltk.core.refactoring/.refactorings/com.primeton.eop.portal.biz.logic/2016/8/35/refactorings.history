@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ViewAttach.java&apos; to &apos;pengkang/src/com.la.view&apos;&#x0D;&#x0A;- Original project: &apos;com.primeton.eop.portal.biz.logic&apos;&#x0D;&#x0A;- Destination element: &apos;pengkang/src/com.la.view&apos;&#x0D;&#x0A;- Original element: &apos;com.primeton.eop.portal.biz.logic.model.ViewAttach.java&apos;" description="Copy compilation unit" destination="=pengkang/src&lt;com.la.view" element1="/src\/main\/java&lt;com.primeton.eop.portal.biz.logic.model{ViewAttach.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1472300259785" units="1" version="1.0"/>
+</session>

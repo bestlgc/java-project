@@ -1,0 +1,114 @@
+package com.huadi.lookahead.dbproxy.biz.logic.manage;
+
+import javax.sql.DataSource;
+
+import org.apache.ibatis.mapping.Environment;
+import org.apache.ibatis.session.Configuration;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.apache.ibatis.transaction.TransactionFactory;
+import org.apache.ibatis.transaction.jdbc.JdbcTransactionFactory;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+import com.huadi.lookahead.dbproxy.biz.logic.dao.IBaseDao;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.DbTestMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceAfficheMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceApiMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceApiMenuMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceApiRgMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceAppChangeMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceAppMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceAttachmentMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceCompanyChangeMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceCompanyPartnerMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceDataCuttingMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceEsbMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceEsbMockerMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceHistorySecurityKeyMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceOperationRoleUserMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistenceOperationUserMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistencePartnerChangeMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistencePartnerExamineMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistencePartnerMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistencePersonChangeMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.PersistencePersonPartnerMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.mapper.SeqMapper;
+import com.huadi.lookahead.dbproxy.biz.logic.plugin.BasePlugin;
+import com.primeton.eop.base.common.constants.DBConstants;
+import com.primeton.eop.base.common.constants.ExceptionCode;
+import com.primeton.eop.base.common.constants.model.DbConfig;
+import com.primeton.eop.base.common.exception.EOPException;
+
+public class SqlSessionManager {
+	private static final Logger logger = LogManager.getLogger(SqlSessionManager.class);
+
+	private static SqlSessionFactory bizSqlSessionFactory;
+	private static SqlSessionFactory opSqlSessionFactory;
+
+	public static SqlSessionFactory getBizSqlSessionFactory() throws EOPException {
+		if (bizSqlSessionFactory == null) {
+			bizSqlSessionFactory = convertSqlSession(DBConstants.bizDbConfig);
+		}
+		return bizSqlSessionFactory;
+	}
+
+	public static void initBizSqlSessionFactory(DbConfig dbConfig) throws EOPException {
+		logger.info("SqlSessionManager.initBizSqlSessionFactory dbConfig:" + dbConfig);
+		bizSqlSessionFactory = convertSqlSession(dbConfig);
+	}
+
+	public static void initOpSqlSessionFactory(DbConfig dbConfig) throws EOPException {
+		opSqlSessionFactory = convertSqlSession(dbConfig);
+	}
+
+	private static SqlSessionFactory convertSqlSession(DbConfig dbConfig) throws EOPException {
+		try {
+			DataSource dataSource = ConnectionManager.getProxoolDataSource(dbConfig.getDriver(), dbConfig.getUrl(), dbConfig.getUsername(),
+					dbConfig.getPassword(), dbConfig.getAlias(), dbConfig.getMaxConnection(), dbConfig.getMinConnection(),
+					dbConfig.getSimultaneousBuildThrottle());
+			TransactionFactory transactionFactory = new JdbcTransactionFactory();
+			Environment environment = new Environment("development", transactionFactory, dataSource);
+			Configuration configuration = new Configuration(environment);
+			configuration.addMapper(IBaseDao.class);
+			configuration.addMapper(PersistenceHistorySecurityKeyMapper.class);
+			configuration.addMapper(PersistenceApiMapper.class);
+			configuration.addMapper(PersistencePartnerMapper.class);
+			configuration.addMapper(PersistencePartnerChangeMapper.class);
+			configuration.addMapper(PersistenceAppMapper.class);
+			configuration.addMapper(PersistenceEsbMapper.class);
+			configuration.addMapper(PersistenceAttachmentMapper.class);
+			configuration.addMapper(PersistencePersonPartnerMapper.class);
+			configuration.addMapper(PersistencePersonChangeMapper.class);
+			configuration.addMapper(PersistenceCompanyPartnerMapper.class);
+			configuration.addMapper(PersistenceCompanyChangeMapper.class);
+			configuration.addMapper(PersistenceAppChangeMapper.class);
+			configuration.addMapper(PersistencePacketAppChangeMapper.class);
+			configuration.addMapper(PersistencePartnerExamineMapper.class);
+			configuration.addMapper(PersistenceEsbMockerMapper.class);
+			configuration.addMapper(SeqMapper.class);
+			configuration.addMapper(DbTestMapper.class);
+			configuration.addMapper(PersistenceApiMenuMapper.class);
+			configuration.addMapper(PersistenceWhiteListMapper.class);
+			configuration.addMapper(PersistenceOperationUserMapper.class);
+			configuration.addMapper(PersistenceOperationRoleUserMapper.class);
+			configuration.addMapper(PersistenceAfficheMapper.class);
+			configuration.addMapper(PersistenceDataCuttingMapper.class);
+			configuration.addMapper(PersistencePhonePathMapper.class);
+			configuration.addMapper(PersistenceApiRgMapper.class);
+			configuration.addInterceptor(new BasePlugin());
+			bizSqlSessionFactory = new SqlSessionFactoryBuilder().build(configuration);
+		} catch (Exception e) {
+			throw new EOPException(e, "SqlSessionFactory convert error", ExceptionCode.DB_SQL_SESSION_FACTORY_ERROR);
+		}
+		return bizSqlSessionFactory;
+	}
+
+	public static SqlSessionFactory getOpSqlSessionFactory() throws EOPException {
+		if (opSqlSessionFactory == null) {
+			opSqlSessionFactory = convertSqlSession(DBConstants.opDbConfig);
+		}
+		return opSqlSessionFactory;
+	}
+
+}
