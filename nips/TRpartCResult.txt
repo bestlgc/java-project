@@ -1,0 +1,2335 @@
+Satish V. Ukkusuri	11
+Hai Yang	11
+Serge P. Hoogendoorn	10
+Yafeng Yin	10
+Ziyou Gao	10
+Yunpeng Wang	9
+Henry X. Liu	9
+Xuesong Zhou	9
+Hani S. Mahmassani	8
+Li Li	8
+Mohamed Abdel-Aty	8
+Bart De Schutter	8
+Constantinos Antoniou	8
+Nikolas Geroliminis	7
+Markos Papageorgiou	7
+Winnie Daamen	7
+Ioannis Papamichail	7
+Paul Schonfeld	6
+Qing He	6
+Victor L. Knoop	6
+Bart van Arem	6
+Wen-Long Jin	6
+Vinayak V. Dixit	6
+Haris N. Koutsopoulos	6
+Yunlong Zhang	6
+Byungkyu Brian Park	6
+Michel Bierlaire	5
+Rongjie Yu	5
+Zhiheng Li	5
+Yinhai Wang	5
+Pamela Murray-Tuite	5
+Hai-Jun Huang	5
+Mashrur Chowdhury	5
+Ali Haghani	5
+Jun Liu	5
+Benjamin Coifman	5
+Roberta Di Pace	5
+Kai Liu	4
+Tomio Miwa	4
+Xiqun (Michael) Chen	4
+S. Ilgin Guler	4
+Guizhen Yu	4
+Lee D. Han	4
+Kay W. Axhausen	4
+Srinivas Peeta	4
+S.C. Wong	4
+Lei Zhang	4
+Lijun Sun	4
+Egidio Quaglietta	4
+Bin Jia	4
+Takayuki Morikawa	4
+Avishai (Avi) Ceder	4
+Rui Jiang	4
+Moshe Ben-Akiva	4
+Fang He	4
+Moshe E. Ben-Akiva	4
+Ke Han	4
+Shuaian Wang	4
+Yue Liu	4
+Brian Wolshon	4
+Yasuo Asakura	4
+Ming Zhong	4
+Victor C.S. Lee	4
+Meng Wang	4
+Monica Menendez	4
+Vikash V. Gayah	4
+Pan Liu	4
+Rudy R. Negenborn	4
+Miquel A. Piera	4
+K. Larry Head	4
+Mark Hansen	4
+Samiul Hasan	4
+Qiang Meng	4
+Wanjing Ma	4
+Feng Zhu	4
+Joseph Y.J. Chow	4
+Rob M.P. Goverde	4
+Zuduo Zheng	4
+Lihui Zhang	4
+Xinkai Wu	4
+Fedja Netjasov	4
+Alexander Skabardonis	3
+Hesham A. Rakha	3
+Xavier Prats	3
+Jørgen G. Rakke	3
+Yanjun Wang	3
+Shoufeng Ma	3
+Yanfeng Ouyang	3
+Natasha Merat	3
+Fei-Yue Wang	3
+Xin Wang	3
+Geert Wets	3
+Camille Kamga	3
+Ludovic Leclercq	3
+Sang H. Son	3
+Siriphong Lawphongpanich	3
+Qingquan Li	3
+Xiaolei Ma	3
+Aleksandar Stevanovic	3
+Alireza Talebpour	3
+Mohamed Haouari	3
+Eleni I. Vlahogianni	3
+Luis Ferreira	3
+Marta C. González	3
+Zhenhua Zhang	3
+Adel W. Sadek	3
+Mahmoud Mesbah	3
+Jing Zhao	3
+Chenfeng Xiong	3
+Jianjun Wu	3
+Shukai Li	3
+Mehdi Keyvan-Ekbatani	3
+Zuo Zhang	3
+Chandra R. Bhat	3
+Tao Cheng	3
+Guohui Zhang	3
+Yi Zhang	3
+Song Gao	3
+Hua Wang	3
+Hong K. Lo	3
+Mao-Bin Hu	3
+Hao Chen	3
+David Z.W. Wang	3
+Claudio Roncoli	3
+Paola Pellegrini	3
+Michael A. Tamor	3
+Dario Pacciarelli	3
+Takahiko Kusakabe	3
+Bin Yu	3
+Xiaoguang Yang	3
+Chris M.J. Tampère	3
+Zhen (Sean) Qian	3
+Gabriël Lodewijks	3
+Nicolas Saunier	3
+Wei Huang	3
+David Levinson	3
+Bin Ning	3
+Feng Shi	3
+Yiming He	3
+Minghua Hu	3
+Zhiyuan Liu	3
+Ashish Bhaskar	3
+Matthew J. Roorda	3
+Chengcheng Xu	3
+Kuilin Zhang	3
+Harry Timmermans	3
+Zi-You Gao	3
+Hanna Maoh	3
+Weili Sun	3
+Gilbert Laporte	3
+Jenaro Nosedal	3
+Jian Wang	3
+Billy M. Williams	3
+Xi Lin	3
+Harilaos N. Psaraftis	3
+Ren-Yong Guo	3
+Dianhai Wang	3
+Vincenzo Punzo	3
+Sergio Ruiz	3
+Chung-Cheng Lu	3
+Lixing Yang	3
+Kjetil Fagerholt	3
+Kaan Ozbay	3
+Rui Sun	3
+Wei Wang	3
+Andrea D’Ariano	3
+Qi Shi	3
+Jia Hu	3
+Gaetano Fusco	3
+Edward Chung	3
+Mahmood Mahmoodi Nesheli	3
+Hao Yang	3
+Bo Yang	2
+Jinxian Weng	2
+Christine Buisson	2
+Stuart Hillmansen	2
+Michael L. Pack	2
+Jiwon Kim	2
+Douglas A. Thornton	2
+Erik Jenelius	2
+Francisco Pereira	2
+Nan Zheng	2
+Dorine C. Duives	2
+Huijun Sun	2
+Jing Dong	2
+Xianfeng Yang	2
+Jian Sun	2
+Xuedong Yan	2
+Gennaro Nicola Bifulco	2
+Xuegang (Jeff) Ban	2
+Yao Cheng	2
+Samantha L. Jamson	2
+Samer H. Hamdar	2
+Antony Stathopoulos	2
+Fabien Leurent	2
+Kaidi Yang	2
+D. Ngoduy	2
+Xiaozheng He	2
+Kai Yin	2
+Harry J.P. Timmermans	2
+ManWo Ng	2
+Bilal Farooq	2
+Zhanbo Sun	2
+Dong Ngoduy	2
+Marcella Samà	2
+Hans van Lint	2
+Juliette Marais	2
+Xiaoling Li	2
+Diego Iannuzzi	2
+Hans Hellendoorn	2
+M.J. Brear	2
+Taha H. Rashidi	2
+Hu Shao	2
+A. Sumalee	2
+Paul Weston	2
+Cristián E. Cortés	2
+Jiaqi Ma	2
+Jin Xin Cao	2
+Serge Hoogendoorn	2
+Mohammad Saifuzzaman	2
+Agachai Sumalee	2
+Marc Miska	2
+Martin Treiber	2
+Tao Tang	2
+Mehdi Nourinejad	2
+Hong Zheng	2
+Jie Sun	2
+Nathan H. Gartner	2
+Zhibin Li	2
+Lei Zhao	2
+C. Manzie	2
+Min-Wook Kang	2
+Baozhen Yao	2
+Yajie Zou	2
+Elise Miller-Hooks	2
+Jun Ding	2
+Chuan Ding	2
+Eren Erman Ozguven	2
+Jaehyun (Jason) So	2
+Peng Su	2
+Qingfeng Zhuge	2
+Liping Fu	2
+Jan Fabian Ehmke	2
+Luk Knapen	2
+Arif Mohaimin Sadri	2
+Keqiang Li	2
+Kay McGinley	2
+Yi Liu	2
+Michael G.H. Bell	2
+Rahul Nair	2
+Jingtao Ma	2
+Bo Xu	2
+Der-Horng Lee	2
+Christos A. Kontovas	2
+Rochdi Trigui	2
+Nathee Athigakunagorn	2
+Young-Jae Lee	2
+Paul St-Aubin	2
+Davy Janssens	2
+Jordi Casas	2
+Zhengbing He	2
+Parth Bhavsar	2
+Penglin Dai	2
+Tao Feng	2
+Xin Zhang	2
+Majid Sarvi	2
+Samuel Labi	2
+R.H. Crawford	2
+Daisuke Fukuda	2
+Simon Washington	2
+Vasileia Papathanasopoulou	2
+Flavio Ciccarelli	2
+Vicente Milanés	2
+Willem Himpe	2
+Eran Ben-Elia	2
+Francesco Corman	2
+Zhi-Hua Hu	2
+Scott Le Vine	2
+Hugh Gladwin	2
+Zhixiang Fang	2
+Xiubin Bruce Wang	2
+Haiyang Yu	2
+Juan C. Herrera	2
+Cynthia Chen	2
+Mecit Cetin	2
+Riccardo Rossi	2
+Wuhong Wang	2
+William Anderson	2
+Teodor Gabriel Crainic	2
+Joan L. Walker	2
+J. Farhan	2
+Jizhan Gou	2
+Yu-Ting Hsu	2
+Kenneth D. Kuhn	2
+Stefano de Luca	2
+Feng Chen	2
+Ning Zhao	2
+R. Sharma	2
+Roisin Murray	2
+John Polak	2
+Daryl L. Hibberd	2
+Peng Chen	2
+Soyoung Ahn	2
+Weiliang Zeng	2
+Shailesh Chandra	2
+W.Y. Szeto	2
+Ning Zhu	2
+Jing-Quan Li	2
+Li Shen	2
+Manuel Fogue	2
+Halim Ceylan	2
+Yanru Zhang	2
+Sameer Alam	2
+Nikola Marković	2
+Carlos Lima Azevedo	2
+Wei Liu	2
+Chunming Qiao	2
+Klaus Bogenberger	2
+Massimiliano Gastaldi	2
+Gang-Len Chang	2
+Fangfang Zheng	2
+Afshin Shariat Mohaymany	2
+Xiang He	2
+Jonathan F. Bard	2
+Frank Saccomanno	2
+Dung-Ying Lin	2
+Guangquan Lu	2
+Francesco Calabrese	2
+Lei Nie	2
+R.C.P. Wong	2
+Clive Roberts	2
+Terry L. Friesz	2
+Mohamed Ahmed	2
+Otto Anker Nielsen	2
+Keith Redmill	2
+Myong K. Jeong	2
+Yiheng Feng	2
+Jian Gang Jin	2
+Zhenliang Ma	2
+Asad Khattak	2
+Xianyuan Zhan	2
+Luigi Pariota	2
+Chronis Stamatiadis	2
+Ruimin Li	2
+Jean-Patrick Lebacque	2
+Francesco Viti	2
+Jinhua Zhao	2
+Mohamed H. Zaki	2
+Alexander Paz	2
+Samir Elhedhli	2
+Wei Deng	2
+Hyoshin Park	2
+Pu Wang	2
+M. Anıl Yazıcı	2
+Xingang Li	2
+R.X. Zhong	2
+Konstantinos Ampountolas	2
+Ernesto Cipriani	2
+Jelka Stevanovic	2
+Yibing Wang	2
+Liang Feng	2
+Rui Guo	2
+Carlos T. Calafate	2
+Theo Arentze	2
+Wei Tu	2
+Tao Yao	2
+Dongyao Jia	2
+Zhongbei Tian	2
+Konstantinos Kepaptsoglou	2
+Jianbin Xin	2
+Washington Y. Ochieng	2
+Zongxuan Sun	2
+Ning Jia	2
+Hongcheng Liu	2
+Washington Yotto Ochieng	2
+David K. Hale	2
+Asad J. Khattak	2
+Joaquin Rodriguez	2
+Alexandre Bayen	2
+Miloš Milačić	2
+Eleni Christofa	2
+Brian Caulfield	2
+Sherif Ishak	2
+Mehmet Yildirimoglu	2
+Pierluigi Pisu	2
+Tarek Sayed	2
+Fabrizio D’Amico	2
+A. Hamish Jamson	2
+Biagio Ciuffo	2
+Xiaobo Liu	2
+Francisco C. Pereira	2
+Piedad Garrido	2
+Silvio Memoli	2
+David J. Lovell	2
+Meng Li	2
+Constantine Samaras	2
+Xiaoning Zhang	2
+Yongxi Huang	2
+Kara M. Kockelman	2
+Juan-Carlos Cano	2
+Jackeline Murillo-Hoyos	2
+William H.K. Lam	2
+Ajith Muralidharan	2
+Arthur Huang	2
+Luis Miranda-Moreno	2
+Simone Weikl	2
+Matthew G. Karlaftis	2
+Shan Jiang	2
+Alexander Erath	2
+Zhongzhen Yang	2
+Zuo-Jun Max Shen	2
+Jianping Sun	2
+Lei Chen	2
+Heng Hu	2
+Tomer Toledo	2
+Giulio E. Cantarella	2
+Manoj K. Jha	2
+Marie-José Huguet	2
+Gonçalo Homem de Almeida Correia	2
+Leo G. Kroon	2
+Samer Madanat	2
+Enrique Onieva	2
+Charisma F. Choudhury	2
+Jianhua Guo	2
+Luis Delgado	2
+Mahmood Zangui	2
+Matthias Kowald	2
+Yuebiao Li	2
+Florian Marczak	2
+Peter R. Stopher	2
+Francisco J. Martinez	2
+Shigang Chen	2
+Jiuh-Biing Sheu	2
+M. Bessede	2
+Lu Lu	2
+Jian Bu	1
+Rico Krueger	1
+Fouzia Elbahhar	1
+Chenping Zhu	1
+Manuel Moyo Oliveros	1
+Muhan Liu	1
+T.L. Pan	1
+Serge Pelissier	1
+Anjali Awasthi	1
+Ahmad Haj Mosa	1
+Pervez Khan	1
+Ektoras Chandakas	1
+Jacques Teller	1
+Renan Zeo	1
+J. Puerto	1
+Filipe Rodrigues	1
+Feng Qiu	1
+Kien Doan	1
+Yiqi Wang	1
+Michael Motro	1
+Seyed Ahad Beykaei	1
+Heng Wei	1
+Sisi Jian	1
+K. Gkiotsalitis	1
+Zichao Li	1
+Lorenzo Castelli	1
+Simeon C. Calvert	1
+Usama Shahdah	1
+Julio Deride	1
+Anat Tchetchik	1
+Tian He	1
+Bojin Liu	1
+Arnaud Burgess	1
+Guiyan Jiang	1
+Stacey G. Bricka	1
+Mourad Abed	1
+Ángel Suescun	1
+Martin Joborn	1
+C. Roberts	1
+Yu Shanchuan	1
+I. Papamichail	1
+Ramya Kamineni	1
+Yingge Xiong	1
+Montasir M. Abbas	1
+Derong Mai	1
+Hatice Sancar Tokmak	1
+Johanna Törnquist Krasemann	1
+Farah Zeghal Mansour	1
+Pauline van den Berg	1
+Peter Vervest	1
+Tongfei Li	1
+Yu Lean	1
+E.J. Manley	1
+Ting-Yu Huang	1
+Akiyasu Tomoeda	1
+Ping-Cheng Lin	1
+Yang Yang	1
+Md. Mozahidul Islam	1
+Jiangtao Liu	1
+Temel Öncan	1
+Reinhart Kühne	1
+Dawei Li	1
+Lennart Söder	1
+Nilesh Anand	1
+B. De Schutter	1
+Humberto Martínez-Barberá	1
+Yung-Hsiang Cheng	1
+Amir Hossein Rezaie	1
+Qiao Dong	1
+Dongcai Su	1
+Cheng-Jie Jin	1
+Zhongxiang Huang	1
+Yuan Zhu	1
+I-Lin Wang	1
+Jaeyoung Jung	1
+Stefano Gori	1
+João Ribau	1
+Mark Brackstione	1
+Mourad Ahmane	1
+Olivier Orfila	1
+Jinfu Yang	1
+A.M. Rodríguez-Chía	1
+Christopher Bucknell	1
+Nicoletta Ricciardi	1
+Paul Pao-Yen Wu	1
+Shih-lung Shaw	1
+Neal Lathia	1
+Ido Klein	1
+Marlon G. Boarnet	1
+Giuseppe Pungillo	1
+Gautam Gupta	1
+Hajo A. Reijers	1
+Margaret O’Mahony	1
+Chunqin Zhang	1
+Nadir Farhi	1
+Hyoungsu Park	1
+Michael Hyland	1
+Fumitaka Kurauchi	1
+Wei Wei	1
+Adam J. Pel	1
+Samid Hoda	1
+Boris M. Velichkovsky	1
+Bruno Ambrogio	1
+Santi Vilardaga	1
+Emmanuel Garbolino	1
+Gunwoo Lee	1
+Alireza Zolfaghari	1
+Elvezia M. Cepolina	1
+Marialisa Nigro	1
+Valentina Cacchiani	1
+Bomin Bian	1
+Xiangpei Hu	1
+Pasi Lautala	1
+Gunwant Dhadyalla	1
+Giusy Di Lorenzo	1
+Shi An	1
+Xavier Louis	1
+Adi Sarid	1
+Andreas Gregoriades	1
+Keechoo Choi	1
+Jaume Barceló	1
+Michael W. Levin	1
+Nabila Remli	1
+Mario Marinelli	1
+Carla Silva	1
+Steve Robinson	1
+Yueyue Fan	1
+Juan G. Villegas	1
+Lucas P. Veelenturf	1
+Hong Li	1
+Sara Al-Haidous	1
+Joe Bared	1
+Yun-Hsuan Liu	1
+Oscar S. Siordia	1
+Tal Sofer	1
+Bin Tian	1
+Jennifer Johnson	1
+Twan Dollevoet	1
+Dirk Christian Mattfeld	1
+Gérard Coquery	1
+Michael J. Cassidy	1
+Adam Poole	1
+Konstantinos Gkiotsalitis	1
+Behzad Moshiri	1
+Bernd Resch	1
+A. Jamili	1
+Andreas Loizos	1
+Ulrich Matchi Aïvodji	1
+Ben Shneiderman	1
+Ilhem Kallel	1
+Zhaomiao Guo	1
+Zhongwei Sun	1
+Jon Reades	1
+Rong-Chang Jou	1
+Aditya Medury	1
+Mario Cools	1
+Kevin F. Hulme	1
+Sinan Gürel	1
+Edward Chan	1
+Sanjin Milinković	1
+Ralf Borndörfer	1
+Markus Gutmann	1
+Lina Kattan	1
+Álvaro J. López-López	1
+A. Borrmann	1
+Alexander Zipf	1
+Imade Fahd Eddine Fatani	1
+Zhao Zhou	1
+Konstantina Gkritza	1
+Stewart Worrall	1
+Merve Keskin	1
+Qing-Yi Hao	1
+Jo Wood	1
+Candace Brakewood	1
+M.F. Renzi	1
+Carles Ferrer	1
+Piotr Piwowar	1
+Quan-Xin Sun	1
+Ming Tang	1
+Panos Georgiou	1
+Bidoura Khondaker	1
+Laura Ferrari	1
+Serdar Colak	1
+Rod E. Turochy	1
+Brett R.C. Molesworth	1
+Maëlle Zimmermann	1
+Jungwoo Shin	1
+Adib Kanafani	1
+Joan García-Haro	1
+Daichi Yanagisawa	1
+William Brazil	1
+Angela Di Febbraro	1
+Yoriyoshi Hashimoto	1
+Toru Seo	1
+George Yannis	1
+Xingzhe Xie	1
+Alexandre Evsukoff	1
+Fausto Errico	1
+Hesham Rakha	1
+Gerard Lachapelle	1
+Toshimichi Takahashi	1
+Eduardo Moreno	1
+Florent Perronnet	1
+Yiming Bie	1
+Vladimir Marianov	1
+Paul Tremont	1
+Nagui M. Rouphail	1
+Tay T.R. Koo	1
+Shaojun Feng	1
+B. Kulcsár	1
+Jin Xu	1
+Haitao He	1
+David A. Noyce	1
+Xunjia Zheng	1
+Daniele Rogano	1
+Pravin Varaiya	1
+Zhirong Chen	1
+Shuai Ling	1
+Chris Lee	1
+Ali Zockaie	1
+Fangni Zhang	1
+S. Wild	1
+Yilei Huang	1
+Sabyasachee Mishra	1
+J. Javier Brey	1
+Ronggang Zhou	1
+Bart Kersbergen	1
+Zhibin Chen	1
+Paul Stewart	1
+H.M. Abdul Aziz	1
+James H. Bookbinder	1
+Pablo A. Rey	1
+M.A. Sotelo	1
+Leishan Zhou	1
+Qing Wu	1
+Tarek Rabbani	1
+YiMing Bie	1
+Shuaichao Zhang	1
+Stefano Arrigoni	1
+Zhongfei Li	1
+Michael Balmer	1
+Alex D. Hwang	1
+Joakim Kalantari	1
+Arun Hampapur	1
+Sonia Mangones	1
+Yusak Susilo	1
+Steven E. Shladover	1
+Le Li	1
+Gang-len Chang	1
+Liqun Peng	1
+Sei-Wang Chen	1
+Aristides G. Karlaftis	1
+Jan Zazgornik	1
+Tae Soo Kim	1
+Carolina García-Costa	1
+Kyung Min Kim	1
+Alireza Abbasi	1
+Jing Peng	1
+Tong-Gen Wang	1
+Mohamed Kais Msakni	1
+Dimitra Michalaka	1
+Yiannis Salouras	1
+Amir H. Ansaripoor	1
+Y.C. Li	1
+Cheng Wan	1
+W.L. Wang	1
+Narotam Kumar	1
+F. Ahmed	1
+Caspar G. Chorus	1
+Zhe Cong	1
+Christopher Monterola	1
+Ye Li	1
+Nicolas Coulombel	1
+Vadim Sokolov	1
+Shan-Hua Wu	1
+Yu Wei	1
+Meng Zhou	1
+Michal Jakob	1
+Ali Shafahi	1
+Miguel Rios	1
+Steve Yadlowsky	1
+Joydeep Ghosh	1
+Stephen Shaoyi Liao	1
+Marie Flanigan	1
+Megan S. Ryerson	1
+Jack Xunjie Luo	1
+Robert W. Heath Jr.	1
+Leandro L. Di Stasi	1
+M.J. Jiménez-Come	1
+Craig Atwater	1
+Agostino Nuzzolo	1
+Benno Hüttler	1
+Ziqi Song	1
+Baskaran Narayanan	1
+Yuetong Lin	1
+Adam Danczyk	1
+Maxime Freyss	1
+Marc Heddebaut	1
+Zaili Yang	1
+Abdeljalil Abbas-Turki	1
+Ziyuan Pu	1
+Enrique Cabello	1
+Christoph Dobler	1
+Xiaokun (Cara) Wang	1
+Simon Cohen	1
+Jeffrey Newman	1
+Iakovos Toumazis	1
+Paola Bandini	1
+Xiao Zhang	1
+Anca Apatean	1
+Amit Singh	1
+Piyawan Kasemsuppakorn	1
+Miho Asano	1
+R.B. Carmona Benítez	1
+Yufen Shao	1
+Da-Cheng Ao	1
+Andrew A. Campbell	1
+Tom van Woensel	1
+Hampton C. Gabler	1
+Peter Maurer	1
+Yingyan Lou	1
+John Hourdos	1
+Silvia Siri	1
+Johannes Müller	1
+Ho Lee	1
+Bing Wu	1
+Seoungbum Kim	1
+Peiheng Li	1
+Ning Yang	1
+Cheol Oh	1
+Dang Minh Tan	1
+Bruno Montella	1
+Chloé Milion	1
+Donald Fry	1
+James Misener	1
+Wilfried Philips	1
+Hilmi Berk Celikoglu	1
+Yugong Luo	1
+Bao-hua Mao	1
+Xiaohong Lu	1
+Atze Dijkstra	1
+Manuel Soler	1
+Rebekka Renner	1
+Sifeng Lin	1
+Xin Wu	1
+Yichuan Peng	1
+Piotr Uchroński	1
+Tadeusz Zeglen	1
+Randi Hjorthol	1
+Yongchang Ma	1
+Yanyan Chen	1
+Shao-kuan Chen	1
+Mehdi Ghatee	1
+Yun Bai	1
+Hideyuki Kita	1
+Ina B. Halvorsen	1
+Jiangshan Ma	1
+Ichiro Sakata	1
+Marek Stencel	1
+Bogdan Vulturescu	1
+D. Hartmann	1
+Jorge Casillas	1
+Chris T. Hendrickson	1
+Francesca Guerriero	1
+Eli Peli	1
+Vikas Goel	1
+Jérôme Thai	1
+Caroline Prodhon	1
+Guillaume Saint Pierre	1
+Sai Anjani Kumar	1
+Joshua Auld	1
+B. Dalla Chiara	1
+Chao Lei	1
+Wei Guan	1
+Yalda Rajabzadeh	1
+Bhagwant Persaud	1
+Lori A. Cramer	1
+Linbing Wang	1
+Jianhui Lai	1
+Cong Chen	1
+Sergio Ilarri	1
+Fangshu Lei	1
+Hüseyin Gürkan	1
+Laurent Denant-Boemont	1
+Andreas Ortmann	1
+Baoshan Huang	1
+Tamara Djukic	1
+Megan M. Khoshyaran	1
+Thomas Williams	1
+M. Bottero	1
+Raymond G. Hoogendoorn	1
+Farman Ali	1
+Stephen G. Ritchie	1
+Yang Yu	1
+Jan Kubeček	1
+Craig Caulfied	1
+Shoichiro Nakayama	1
+Kristin Malakorn	1
+Lee K. Jones	1
+Mohamed Ghazel	1
+Cristobal Pineda	1
+Dmitry Krushinsky	1
+Yi-Ju Lin	1
+Mahdi Zargayouna	1
+Md. Khaledur Rahman	1
+Chek Pin Yang	1
+Alexandre M. Bayen	1
+Mingchao Wu	1
+Haneen Farah	1
+Zhao Zhang	1
+Luigi dell’Olio	1
+Scott J. Mason	1
+Fei Zou	1
+Luca D’Acierno	1
+Nikolas Pyrgiotis	1
+Yingling Fan	1
+Pinlong Cai	1
+Stephan Meisel	1
+Peng Liu	1
+Bo Zou	1
+Peng Hao	1
+Daniel J. Fagnant	1
+Yuqi Sun	1
+Saniul Ahmed	1
+Jan-Alexander Adlbrecht	1
+Éric Dumont	1
+Mario Pickavet	1
+Kun An	1
+Alejandra Medina Flintsch	1
+Zhicai Juan	1
+S. Conversy	1
+Zhengguo Sheng	1
+A.C. Telea	1
+Peng Xu	1
+Jiaqiu Wang	1
+Tatsuya Kotegawa	1
+Abdurahim Alharbi	1
+Chunfu Shao	1
+Karla Hoffman	1
+Amna Bouhana	1
+Maczak Jedrzej	1
+Carlos Llorca	1
+Navah Z. Ratzon	1
+Christina Plati	1
+Wolfram Klingsch	1
+Wolfgang Schuster	1
+Tomáš Robenek	1
+Galina Nogin	1
+Jorge Laval	1
+Hanghang Tong	1
+Yong Qin	1
+Laura Eboli	1
+Alice Chu	1
+Antonino Sgalambro	1
+Jufen Yang	1
+Jisun Lee	1
+Yupo Chan	1
+Pengling Wang	1
+Rui Zhang	1
+Afrid A. Sarker	1
+James D. McCalley	1
+Dan Pescaru	1
+Dušan Teodorović	1
+Ling Wang	1
+A. Bayen	1
+Julio A. Sanguesa	1
+Rikard Bakkehaug	1
+Philippe Nitsche	1
+Yu Zhang	1
+Alan P. Vonderohe	1
+Fernando Ordóñez	1
+Yen-Ju Lee	1
+Eirini Kastrouni	1
+Laura Torres	1
+Norbert Brändle	1
+Alexander Schuller	1
+Lu Kong	1
+Dong Guo	1
+Ian Jenkinson	1
+Ali N. Zadeh	1
+Junjie Gao	1
+Rabi G. Mishalani	1
+Luis J. Novoa	1
+Parham Pahlavani	1
+A.B. Ramos	1
+Yvonne Barnard	1
+Marko Hrastovec	1
+D.F. Llorca	1
+Wenjing Zhao	1
+Lu Wang	1
+Loukas Dimitriou	1
+Ton van den Boom	1
+Antonio F. Skarmeta	1
+Jianfeng Zheng	1
+Antoniadis Ioannis	1
+Lin-xia Zhan	1
+Navdeep Singh	1
+Giuseppe Guido	1
+S. Talluri	1
+G. Mattia	1
+François Combes	1
+Yanlei Gu	1
+Xiang Song	1
+Siyang Xie	1
+Hany M. Hassan	1
+Chih-Ting Tien	1
+Chong Wei	1
+Meng Xu	1
+B. Holleman	1
+Mingzheng Shi	1
+Chris Bachmann	1
+Adel Bolbol	1
+Xiaofei Hu	1
+Andre Tok	1
+Ajith Abraham	1
+Jinglin Li	1
+Trung Thanh Nguyen	1
+M. Pourseyed Aghaee	1
+Bruno Jeanneret	1
+Jeffrey Taylor	1
+A.J. Pel	1
+Natalia Isaenko	1
+Tugba Arsava	1
+Ke Zhang	1
+Xuan Di	1
+Hong-Bae Jun	1
+Yu (Marco) Nie	1
+Jean-Pierre Ghys	1
+André de Palma	1
+Helai Huang	1
+C. Hurter	1
+Gurcan Comert	1
+Pam Davy	1
+Xiaosi Zeng	1
+Dipak Ghosal	1
+Hui-Yu Jin	1
+Andrea Ranieri	1
+Daniel Palhazi Cuervo	1
+Alireza Ermagun	1
+Axel Lüdtke	1
+Adriano O. Solis	1
+M. Gavilán	1
+Chung-Piaw Teo	1
+Chiara Calastri	1
+Vittorio Marzano	1
+Shunsuke Kamijo	1
+S. Samaranayake	1
+Jingxian Liu	1
+Carlo Ratti	1
+Suk-Joon Ko	1
+Shou-Ren Hu	1
+Ram M. Pendyala	1
+Can Wang	1
+Yuan Qu	1
+A. Stathopoulos	1
+Hao Wang	1
+Shu Lin	1
+Mauro Dell’Orco	1
+Qiuping Li	1
+Flavien Balbo	1
+Fulvio Simonelli	1
+Elin E. Halvorsen-Weare	1
+Xiang Fei	1
+François-Xavier Coudoux	1
+Mattias Gripsrud	1
+Harvey J. Miller	1
+Ke-ping Li	1
+Jing Lu	1
+Yang Lu	1
+Liang Lu	1
+Jon Martin Denstadli	1
+Jiaming Wu	1
+Zong Z. Tian	1
+Kun Cao	1
+Xinxin Zhu	1
+David H. Timm	1
+Eneko Osaba	1
+Honghui Dong	1
+M.C. Sánchez-Gil	1
+Alicia De-Los-Santos	1
+Magno Mendes	1
+Umberto Crisalli	1
+Stefan Schiffer	1
+Alessandra Bianchini	1
+Leonardo Lamorgese	1
+Carlo Giacomo Prato	1
+Feng Chu	1
+Federico Malucelli	1
+Richard Martin Lusby	1
+Xinwei Li	1
+Ruey Long Cheu	1
+Kyriacos C. Mouskos	1
+Baisravan HomChaudhuri	1
+Ruben Corthout	1
+Jianguo Qi	1
+James R. Ward	1
+Mariken H.C. Everdij	1
+T. Hof	1
+Stewart A. Birrell	1
+Y. Lucet	1
+Paul Koch	1
+Rahul Deshpande	1
+Baptiste Vrigneau	1
+Shoufeng Wang	1
+António Couto	1
+Jack Haddad	1
+O. Rexfelt	1
+Sylvia Y. He	1
+Seunghyeon Lee	1
+Deogratias Eustace	1
+Essam Radwan	1
+Luca Rosati	1
+Francesc Soriguera	1
+Yann Cocheril	1
+Jaehyun So	1
+Anne Binder	1
+Shan Huang	1
+Grégory Marlière	1
+Anabele Lindner	1
+Xiaolin Qin	1
+Qianwen Guo	1
+Thuy T. Luong	1
+Chaminda Basnayake	1
+Philippe Lacomme	1
+Katsuhiro Nishinari	1
+Xiaoliang Ma	1
+Xueqin Chen	1
+Yunli Shao	1
+Michael Sanz	1
+Crépin Nsiala	1
+Runing Lin	1
+Ahmed Mustafa	1
+Filip Todić	1
+Asier Perallos	1
+José J. Cañas	1
+Yugeng Xi	1
+Bryan W. Schlake	1
+Gediminas Adomavicius	1
+David Mercier	1
+Yanjie Duan	1
+G. Challita	1
+Gopal R. Patil	1
+Mi Diao	1
+S.M. Riazul Islam	1
+Renxin Zhong	1
+Nan Kong	1
+Yong-Ji Luo	1
+Daiheng Ni	1
+Briana Reprogle	1
+Neïla Bhouri	1
+Antonin Danalet	1
+Frank Witlox	1
+Federico Cheli	1
+Sara Ferreira	1
+Guofa Li	1
+Philipp Seewald	1
+Cira Souza Pitombo	1
+François Delmotte	1
+A.M. Hellín	1
+Hao-I Tan	1
+Jian Rong	1
+Guillaume Rey	1
+Bing Liu	1
+R. Jayakrishnan	1
+Shanjiang Zhu	1
+Alireza Naimi	1
+D. Gianazza	1
+Konstantin S. Tikhonov	1
+Patricia S. Hu	1
+Ana F. Carazo	1
+Nicola Sacco	1
+Ralf Junghans	1
+Di Zhang	1
+Romain Billot	1
+Anton Bezuglov	1
+Filmon G. Habtemichael	1
+Alexandra Moutinho	1
+A. Kneidl	1
+Lakshmi Dhevi Baskar	1
+M. Toni	1
+Aliza Fleischer	1
+C.A. Zúñiga	1
+Marco Rinaldi	1
+Marcel Sala	1
+Su Yang	1
+Majid Zahiri	1
+Micah Fuller	1
+Houda Boujnah	1
+Quoc Bao Vo	1
+Zhang Xi	1
+Franc Solina	1
+Xinping Yan	1
+Leihong Li	1
+Damek Davis	1
+Christine Vanovermeire	1
+Victor Molano	1
+Krasimira Kapitanova	1
+M.J. Ruiz-Montero	1
+Selim Dündar	1
+Elias B. Kosmatopoulos	1
+M. Sohel Rahman	1
+Ting Zuo	1
+Carolina Palma	1
+Graham Currie	1
+Fernando S. Oliveira	1
+Alfredo Nantes	1
+Linsen Chong	1
+Sean Brennan	1
+Yiwei Zhou	1
+Alex Landex	1
+Dirk Rother	1
+Ana T. Moreno	1
+Jinjun Tang	1
+Ying Song	1
+Pirita Niemi	1
+Yung-Cheng Lai	1
+Jianming Hu	1
+Ángel Ibeas	1
+Alfréd Csikós	1
+Dhaivat Parikh	1
+Luciano Gallegos	1
+Christian Artigues	1
+Burak C. Yildiz	1
+Zhiqiang Yang	1
+Wei-bin Zhang	1
+Wei Feng	1
+Paolo D’Ariano	1
+Andrew Daly	1
+Christopher R. Cherry	1
+Mingxin Li	1
+Florian Geiss	1
+Pieter Vansteenwegen	1
+Anahita Jamshidnejad	1
+Yu-Jin Zhang	1
+Maya Dawood	1
+Khaled F. Abdelghany	1
+Sandra Geisler	1
+Boris Prodhomme	1
+Nakorn Indra-Payoong	1
+Dian-ge Yang	1
+Sylvain Allio	1
+D. Hirpa	1
+Roberto Sacile	1
+Jianping Wang	1
+A. Galrão Ramos	1
+Ram Gopalan	1
+Yutao Ba	1
+Xiaoyue Cathy Liu	1
+Chao Mao	1
+Mahmood Rahmani	1
+Junming Zhang	1
+Kevin Gingerich	1
+James Hunt	1
+Tung Le	1
+S.M. Lo	1
+Maddalena Nonato	1
+Ana Angelino	1
+Dongwei Chen	1
+E. Lovisari	1
+Céline Parzani	1
+Carlos Carrion	1
+Md. Shahadat Iqbal	1
+Jianhong (Cecilia) Xia	1
+Xiaobo Qu	1
+Mohammad R. Islam	1
+Nora T. Gausel	1
+Chi Xie	1
+Guangnian Xiao	1
+Juan E. Coeymans	1
+Keping Li	1
+Kasun P. Wijayaratna	1
+P.B. Mirchandani	1
+Zheng Zhu	1
+Andre Luckow	1
+Yanwei Wang	1
+Buntoro Irawan	1
+Yan Xu	1
+Jun Xie	1
+Yahua Sun	1
+Alison J. Conway	1
+Feixiong Liao	1
+Linghui Han	1
+Adam Kirk	1
+Yeqing Zhang	1
+Maan E. El Najjar	1
+Yiping Wu	1
+Chase C. Murray	1
+Shahin Gelareh	1
+Olivier Lamotte	1
+Kuancheng Huang	1
+Sungchul Hong	1
+Jiafu Tang	1
+Jong-Ho Shin	1
+Marco Garozzo	1
+A. Kouvelas	1
+Andrea Baiocchi	1
+Michal Weiszer	1
+Pablo Ciáurriz	1
+Philippe De Maeyer	1
+I.J. Turias	1
+Nicolas Gaud	1
+Jian Wu	1
+Peter S.C. Lau	1
+Min Xu	1
+Orla Thérèse McCarthy	1
+Xinhui Zhang	1
+Luca Quadrifoglio	1
+Peng Zhang	1
+Konstantina Laparidou	1
+Rahul Sharma	1
+F. Valencia	1
+M.J. Maher	1
+Leandro C. Coelho	1
+Tomas Lidén	1
+Barış Şimşek	1
+C. Santa	1
+Peter Huang	1
+R. Guglielmetti Mugion	1
+Gregory J. Barlow	1
+Davide Lauria	1
+Elke Hermans	1
+Stefan Östlund	1
+Zongzhi Li	1
+Lishuai Li	1
+Fernando Pereñíguez	1
+Yongjun Shen	1
+K. Tastambekov	1
+Ozgur Baskan	1
+Pietro Manzoni	1
+Moein Ghasemzadeh	1
+Maria Cristina Mariani	1
+Sehyun Tak	1
+Michele Ottomanelli	1
+Abishai Polus	1
+Xuesong Wang	1
+Ember Martinez	1
+Nico Dellaert	1
+Fatma Gzara	1
+Tie-Qiao Tang	1
+Kursat Cagiltay	1
+Yousef Maknoon	1
+Janusz Gajda	1
+Gabriel Goulet Langlois	1
+Yichang James Tsai	1
+Manuel Bullejos	1
+Jiaying Yu	1
+Kazumichi Ohtsuka	1
+Xiqun Chen	1
+Yoni Nazarathy	1
+Qian Ge	1
+Liang Zheng	1
+Miguel Figliozzi	1
+Isaac Martín de Diego	1
+Yang Yue	1
+Abdul Qadar Kara	1
+Zhiguo Li	1
+M. Bassani	1
+Yu-Liang Liu	1
+Kevin C. Furman	1
+Martijn Breen	1
+James Martin	1
+Alvaro Nosedal	1
+John M. Rose	1
+Ellen Grumert	1
+Yan Qi	1
+Rob Butcher	1
+Gustav Sennton	1
+Jian Hu	1
+Yunfei Fang	1
+James Montague	1
+Ton de Kok	1
+Abdellah El Moudni	1
+Qiong Bao	1
+John Alexis Guerra-Gómez	1
+Kirti Das	1
+Guangchao Wang	1
+Blaž Krese	1
+A. Suescun	1
+Azalden Alsger	1
+Domenico Sassanelli	1
+Paul Jennings	1
+Simon Henry Bull	1
+Dorota Kurowicka	1
+João Lourenço Cardoso	1
+E. Elisabet Rutström	1
+S. Blandin	1
+Maxime Guériau	1
+Anjan Rayamajhi	1
+David Racz	1
+Bill Buckles	1
+Zhen-zhou Yuan	1
+V. Dimitra Pyrialakou	1
+Francesca Cuomo	1
+Ikki Kim	1
+Seong Kyu Choi	1
+Pankaj Maheshwari	1
+Pak Kin Wong	1
+Paolo Toth	1
+Yaqin Yang	1
+Haizhong Wang	1
+Sebastian Pannasch	1
+Abhishek Singhal	1
+Long Tien Truong	1
+Kavita Parikh	1
+Xin-yue Xu	1
+Marie Schmidt	1
+Piyushimita “Vonu�? Thakuriah	1
+Jinjin Tang	1
+Haiying Xia	1
+Christian Gundegjerde	1
+Huarong Zheng	1
+Paul Green	1
+Miho Iryo-Asano	1
+Jin Wang	1
+Christopher Flores	1
+Shuo Zhao	1
+Chris Lokan	1
+M. Brokate	1
+Hussein Abbass	1
+Tsung-Hsien Tsai	1
+Soomin Woo	1
+Sanna M. Pampel	1
+Harshingar Patel	1
+Zhendong Pan	1
+Ioannis Tsapakis	1
+Thierry Delot	1
+Katsuya Hihara	1
+Steve Barry	1
+Mario Vanlommel	1
+Maarten Houbraken	1
+A. Paloma Cucala	1
+Joshué Pérez	1
+Akshay Vij	1
+A.G. Lorente	1
+Sanjay Ranka	1
+Dewan Md Zahurul Islam	1
+Denis Pomorski	1
+Tom Van Woensel	1
+Yong-Hong Kuo	1
+Xiaomei Zhao	1
+Ch.N. Stefanakos	1
+Jameson L. Toole	1
+Bernard Schnetzler	1
+Leonardo L.B.V. Cruciol	1
+David Sánchez	1
+Ana Tsui Moreno	1
+Shayan Kavakeb	1
+Douglas Houston	1
+Yinghui Wu	1
+Marko Ševrović	1
+Germán Günther	1
+Miloš Milenković	1
+Daniel DeLaurentis	1
+Marc-Olivier Killijian	1
+Marcela A. Munizaga	1
+A. Bensrhair	1
+Habib M. Kammoun	1
+Hossein Hashemi	1
+Jintao Ke	1
+Han Jiang	1
+Ryan N. Fries	1
+Baoxiang Li	1
+Michael Razo	1
+H. Kuang	1
+Antonio Moragón	1
+Jorge Villagrá	1
+Christos Katrakazas	1
+Miquel Estrada	1
+Alessandro Vitale	1
+Lars Magnus Hvattum	1
+Ahmad I. Jarrah	1
+Sidharta Gautama	1
+P. Vandergheynst	1
+Dabin Liao	1
+Li Xiang	1
+Jan Holmström	1
+MariAnne Karlsson	1
+Alexei Pozdnoukhov	1
+José Maria Peña	1
+Dongping Fang	1
+Y. Wang	1
+Zhongren Gu	1
+Michael Hope	1
+Duygu Taş	1
+Asher Bender	1
+Stephane Hess	1
+Mike Smith	1
+Mihalis M. Golias	1
+Jian-Qiang Hu	1
+Joseph Ferreira Jr.	1
+Monirehalsadat Mahmoudi	1
+Robert Babuška	1
+Junlin Zhang	1
+Abdul Rawoof Pinjari	1
+Jian Zhang	1
+Miloš Nikolić	1
+Joachim Taiber	1
+He Huang	1
+Lars Wittrup Jensen	1
+Stefan Schmöller	1
+Travis Waller	1
+Lu Tong	1
+Henk A.P. Blom	1
+Stephen D. Boyles	1
+Michele Berlingerio	1
+Chien-Lun Lan	1
+Carlo Mannino	1
+Kevin Bing-Yung Wong	1
+Shayan Khoshmagham	1
+Andreza Dornelas de Souza	1
+Hehua Zhu	1
+Yuan Gao	1
+Kevin Majka	1
+Irene Martínez	1
+T. Asada	1
+Venu M. Garikapati	1
+Maria Bordagaray	1
+A. Dabiri	1
+Jun Chen	1
+Anurag Pande	1
+Henk Van Zuylen	1
+Eduardo Nebot	1
+Xiaoqing Ding	1
+Robert Verhaeghe	1
+M.A. Piera	1
+Sergio Martínez	1
+Xiang Li	1
+Fangchun Yang	1
+Yiwen Wan	1
+Catherine Plaisant	1
+Taewan Kim	1
+Wen-Hua Chen	1
+Shlomo Bekhor	1
+Thomas Schlechte	1
+Yuta Nakano	1
+Apostolos Kotsialos	1
+Yu Mei	1
+Mouhannad Ali	1
+Yun-Hong Min	1
+Hamid Reza Eftekhari	1
+Xiaoqiang Zheng	1
+Juan Carlos Muñoz	1
+Pieter Audenaert	1
+Jie He	1
+Jianshuai Feng	1
+A. Prasad Sistla	1
+Dhouha Attia	1
+Afef Fekih	1
+K. Reif	1
+Arne Kesting	1
+Chiung-Yao Fang	1
+Chaozhong Wu	1
+Dusan Teodorovic	1
+David Clair	1
+Lauren Alexander	1
+Mario De Felice	1
+Prateek Bansal	1
+Jia Zheng Zhu	1
+Alfred J. Baird	1
+K. Shankari	1
+Juan C. Muñoz	1
+Regina Stolz	1
+T. Koseki	1
+Chuan-Lin Zhao	1
+Jia Wu	1
+Daxin Tian	1
+Travis S. Waller	1
+M. Papageorgiou	1
+Hamid Aghajan	1
+Gábor Maróti	1
+Xin Yang	1
+Zi-Qian Ma	1
+Hong Kam Lo	1
+José Santa	1
+Alexander V. Sadovsky	1
+Annique Lenorzer	1
+S.B. Liu	1
+Daniel Mackowski	1
+Jun-fang Tian	1
+Maaike Snelder	1
+Jegar Pitchforth	1
+Gerard Aguilar Ubiergo	1
+Dan Cox	1
+Antti Lajunen	1
+Obrad Babić	1
+Naeim Abedi	1
+Qiong Tian	1
+Hai-ying Li	1
+J.H.R. van Duin	1
+Min Liu	1
+Tom Brijs	1
+Sohail Zangenehpour	1
+Khaled Hussain	1
+John C. Golias	1
+N. Salameh	1
+C. Canudas de Wit	1
+Andre Carrel	1
+Bai Yu	1
+Arnaud Devie	1
+Zhihan Liu	1
+Oliver M.J. Carsten	1
+Qian Wang	1
+Yiming Gu	1
+Daniele Carcasole	1
+C. Rabut	1
+Achille Fonzone	1
+Limin Jia	1
+Chung-Wei Kuo	1
+Lou Caccetta	1
+Szymon Gontarz	1
+Cynthia Barnhart	1
+Fritz Busch	1
+Douglas R. Isaacson	1
+Matin Shahri	1
+Soner Haldenbilen	1
+Licia Capra	1
+Xiao-Xia Jian	1
+Robbie Napper	1
+Kakan Chandra Dey	1
+Régine Seidowsky	1
+Katja Kircher	1
+Simona Sacone	1
+Yiguang (Ethan) Xuan	1
+T. Cheng	1
+R.F.T. Brouwer	1
+Jin I. Ge	1
+Daniel Potthoff	1
+Siavash HosseinyAlamdary	1
+Katherine Spansel	1
+Keemin Sohn	1
+Nikos D. Lagaros	1
+Daniela Giordano	1
+Sebastian Seebauer	1
+Kai-Florian Richter	1
+Kerrie Mengersen	1
+Wei-Hsun Lee	1
+Alejandro Montoya	1
+S.P. Hoogendoorn	1
+D. Delahaye	1
+Yan Zhou	1
+Zhan Zhao	1
+Tomasz Schelenz	1
+Aline Aylo	1
+Zhen Tan	1
+Jiadong Zhang	1
+Zhuofei Li	1
+Changzheng Liu	1
+Lóránt Tavasszy	1
+Konstantinos G. Zografos	1
+Mingqiao Zou	1
+Marco Petrelli	1
+Juneyoung Park	1
+Matteo Mondini	1
+Eleni Papatzikou	1
+Doris Sáez	1
+Markus Reuther	1
+Susan Grant-Muller	1
+Jeffrey Larson	1
+Tapabrata Ray	1
+Gemma Nicholson	1
+Jorge Godoy	1
+Satish V Ukkusuri	1
+Frank C.H. Lai	1
+Federico Perea	1
+Vinícius Amaral Armentano	1
+Ciro Soto	1
+Md Moniruzzaman	1
+Julie Beugin	1
+Antonio Fernández-Cardador	1
+I.G. Daza	1
+Stéphane Galland	1
+Worku Y. Mergia	1
+W.H.K. Lam	1
+Benjamin Heydecker	1
+Emmanuel Vinot	1
+Hao Liu	1
+Rodrigo Mesa-Arango	1
+Benjamin C.M. Fung	1
+Huachun Tan	1
+Rodric Frederix	1
+José F. Gonçalves	1
+Felicitas Mensing	1
+Rino Brouwer	1
+Éric Lefèvre	1
+Kristen L. Macuga	1
+Paras Kumar	1
+Yoon Jung	1
+Alexis Poulhès	1
+Mohd Azrin Mohd Zulkefli	1
+Francesco Benedetto	1
+Shih-Lung Shaw	1
+Stephen F. Smith	1
+Thomas C. Jensen	1
+Zhihai Wu	1
+Andrea Benedetto	1
+Mónica Menéndez	1
+Christer Ahlström	1
+Esteban Egea-López	1
+Bani Anvari	1
+Paul Anderson	1
+Rodopoulos Konstantinos	1
+Essam Dabbour	1
+Simon Breuss	1
+Jiun-Jia Hsu	1
+Murat Caner Testik	1
+Nour-Eddin El Faouzi	1
+Lars Magne Nonås	1
+Gábor Orosz	1
+Edvard Govekar	1
+Cristian Arteaga	1
+Nayla Ahmad Al-Thani	1
+Wenquan Li	1
+Kenneth Sörensen	1
+S. Mousset	1
+Quan-xin Sun	1
+Wael K.M. Alhajyaseen	1
+Jorge Juan Gil	1
+Leo Kroon	1
+Hongsheng Qi	1
+A. Núñez	1
+Xiushan Jiang	1
+Josep Domingo-Ferrer	1
+Richard Lancioni	1
+Zheng Wei	1
+Robin Lindsey	1
+Li-Ta Hsu	1
+F. Busch	1
+S.M. Mahdi Amiripour	1
+Armin Seyfried	1
+Josep Perarnau	1
+Avi Chaim Mersky	1
+Nikolaos Ath. Kallioras	1
+S. Ramaswamy	1
+O. Schinas	1
+Zhong-Jun Ding	1
+Massimo Di Gangi	1
+Lesley A. Weitz	1
+Mohamed A. Abdel-Aty	1
+David Watkins	1
+A. Spiliopoulou	1
+Raja Sengupta	1
+Bernat Goñi-Ros	1
+Yang Zheng	1
+Changrui Ren	1
+Hermann Georg Mayer	1
+Eric Yongxi Huang	1
+R.R. Negenborn	1
+Muhammad Usman	1
+Lisa Aultman-Hall	1
+Jianqiang Wang	1
+Lingqiao Qin	1
+İsmail Şahin	1
+Corey D. Harper	1
+Peng-Huan Jin	1
+Y. Pushak	1
+Veysi Isler	1
+Qixin Shi	1
+José F. Oliveira	1
+Maurizio Bielli	1
+Roger Beecham	1
+Arash Yousefi	1
+Yao-Jan Wu	1
+James Haworth	1
+Yue Tong	1
+Guoqing Zhou	1
+Laurent Dezou	1
+Rita Viegas	1
+Andrija Vidosavljevic	1
+Jason Jupe	1
+Frédéric Schettini	1
+Xiaomeng Chang	1
+Macarena Tejada	1
+J.W.C. van Lint	1
+Ypatia Limniati	1
+Giuseppe Vizzari	1
+Jianshan Zhou	1
+Jorge E. Mendoza	1
+Lianyu Chu	1
+Øyvind S. Patricksson	1
+Cecilia Pasquale	1
+Monia Rekik	1
+Amy Kim	1
+Yihui Wang	1
+Behrooz Khorashadi	1
+S. Ruiz	1
+Wei Li	1
+M. Selim Aktürk	1
+Pedro Jara-Moroni	1
+Göran Andersson	1
+Zhuo Chen	1
+Sebastiaan Meijer	1
+João Porto de Albuquerque	1
+I. Del Pozo	1
+Eyal Levenberg	1
+Li Wikström	1
+Jianfeng Liu	1
+Jing Zhou	1
+Yun Zhang	1
+Ayako Miura	1
+Patricia S. Lavieri	1
+C. Portilla	1
+Berk Anbaroglu	1
+Zhijia Tan	1
+Frizo Vormer	1
+Amanda G. Chu	1
+Tien Mai	1
+Ka In Wong	1
+Mark King	1
+Golnush Masghati-Amoli	1
+Yan Huang	1
+Takuro Ikeda	1
+Jun Hu	1
+Mark Brackstone	1
+Xinmiao Yang	1
+Dorota Grejner-Brzezinsk	1
+Rein Ahas	1
+Ata M. Khan	1
+H. Michael Zhang	1
+M. Rapik Saat	1
+Juan A. Mesa	1
+Xinwu Qian	1
+M. Castro	1
+Nicolas Hautière	1
+Jonathan S. Wood	1
+Du Yuchuan	1
+Vu Duong	1
+Le-Minh Kieu	1
+Sung-Pil Hong	1
+Kay Axhausen	1
+Raúl Crespo	1
+Mojtaba Maghrebi	1
+Tejswaroop Geetla	1
+Reinaldo Morabito	1
+Markus Montigel	1
+Hassan A. Karimi	1
+Shinhye Joo	1
+Pushkin Kachroo	1
+Enjian Yao	1
+Lili Du	1
+Salima Hassas	1
+Lídia Montero	1
+Mahmoud R. Delavar	1
+Kristina Lerman	1
+Bao-Zhen Yao	1
+Ping Hu	1
+Jia Yao	1
+Leonardo Caggiani	1
+Paul E. Moraal	1
+Raffaela Riemann	1
+Chi Man Vong	1
+Jacek Skorupski	1
+Grigorios Fountas	1
+Jun Tang	1
+Hussein A. Abbass	1
+S. Puechmorel	1
+K.S. Kwak	1
+Raouf Babari	1
+Chien-Ming Chou	1
+Martin L. Hazelton	1
+Ada Che	1
+Mohsen Ramezani	1
+Roy Welsch	1
+Aurélien Duret	1
+Sébastien Gambs	1
+Esmaeil Balal	1
+Merkebe Getachew Demissie	1
+Qing Wang	1
+Rochdi Merzouki	1
+Y.E. Hawas	1
+Byungkyu (Brian) Park	1
+Weinan Li	1
+Mira Bou Farah	1
+Khadim Ndiaye	1
+S.P. Nigam	1
+R. John Hansman	1
+Mikel Echeverría	1
+Christian Royer	1
+Arnab Majumdar	1
+Joyoung Lee	1
+Yanzhi Li	1
+Mariano Gallo	1
+Richard Andrášik	1
+Darcy Bullock	1
+Demetrio Festa	1
+Weihao Yin	1
+Stephan Winter	1
+Peng (Will) Chen	1
+F.P. Deflorio	1
+Rachel Shichrur	1
+H.M. Zhang	1
+Vinit Kumar	1
+Timo Ohnmacht	1
+H. Oliver Gao	1
+Eunbi Jeong	1
+Chiara Colombaroni	1
+Sravani Vadlamani	1
+Kleoniki Vlachou	1
+Daniel Wilson	1
+Tom Bellemans	1
+Vincenzo Marano	1
+Taha Hossein Rashidi	1
+Risako Morimoto	1
+Xiqun (Micheal) Chen	1
+Atef Badr	1
+George Dedes	1
+Beibei Li	1
+Ben Kolosz	1
+Bachar El Hassan	1
+Christoph Quix	1
+Seddik Belkoura	1
+Julien Ribet	1
+Banavar Sridhar	1
+Nikiforos Stamatiadis	1
+Neslihan Ozmen Eryilmaz	1
+Michael Maness	1
+Lipika Deka	1
+Nobuhiro Uno	1
+Ivana Semanjski	1
+Yiakopoulos Christos	1
+Sarah V. Hernandez	1
+Mikel Murga	1
+Thompson Sarkodie-Gyan	1
+Jianping Xing	1
+Paolo Dell’Olmo	1
+Edmund K. Burke	1
+Tao Zhang	1
+T. Schelenz	1
+Pavankumar Murali	1
+Ryszard Sroka	1
+Mohamad Khalil	1
+Osama A. Osman	1
+Oscar Oviedo-Trespalacios	1
+Bo Feng	1
+Carlos Daganzo	1
+Ansar-Ul-Haque Yasar	1
+Fadi Al Machot	1
+Megan Smirti Ryerson	1
+Kerry M. Malone	1
+Fu-Tian Wang	1
+Fang Liu	1
+Daehyun You	1
+Cenk Ozan	1
+S. Dangl	1
+Jocelyn Buisson	1
+Johan Olstam	1
+Iñaki Díaz	1
+Wendi Wang	1
+Femke van Wageningen-Kessels	1
+Satish Ukkusuri	1
+Umair Durrani	1
+Ismaïl Saadi	1
+Bryan Higgs	1
+David Herrero-Pérez	1
+Dongfan Xie	1
+Xiaoyan Hong	1
+Lan Wu	1
+Peter Veelaert	1
+L. Kroon	1
+Umit Ozguner	1
+Linus Meier	1
+Peter G. Furth	1
+Huimin Niu	1
+Nan Geng	1
+Nathan P. Belz	1
+David S. Hurwitz	1
+Lin Hou	1
+Alberto Faro	1
+Stefania Bandini	1
+Hao Pu	1
+Katalin M. Hangos	1
+Adam Hedges	1
+Chris Manzie	1
+Ouri Wolfson	1
+Mustafa Şahin	1
+Hemant Kumar Singh	1
+Hai L. Vu	1
+Yang Wen	1
+Nigel Wilson	1
+Zhong-Zhen Yang	1
+Nicolas Paparoditis	1
+Muhammad Ali Nayeem	1
+K.Y. Fu	1
+Gennaro N. Bifulco	1
+Matthew Mohebbi	1
+Kari Watkins	1
+Xiang Liu	1
+Yin Wang	1
+Lauren P. Alexander	1
+Bilge Atasoy	1
+Tai-Yu Ma	1
+Shuang Liu	1
+Ling Bian	1
+Joon Heo	1
+Baoding Zhou	1
+Roberto Roberti	1
+L. Di Pietro	1
+Keshuang Tang	1
+J.L. Nabais	1
+Roberto Horowitz	1
+Zhenhong Lin	1
+Mu-Chen Chen	1
+Eric Horvitz	1
+Wenbo Zhu	1
+Said Easa	1
+Alan Blatt	1
+Amaury Flancquart	1
+Yanshuo Sun	1
+Maria Davidich	1
+Romesh Khaddar	1
+A. Alahi	1
+P.C. Bouman	1
+Alessandro Farina	1
+Alexander E.I. Brownlee	1
+Baher Abdulhai	1
+Manuel P. Lopes	1
+Jan-Dirk Schmöcker	1
+Yunfei Hou	1
+Gary A. Davis	1
+Josep Mensión	1
+Chunjiao Dong	1
+Geoff Aldis	1
+Li Weigang	1
+Patricia Baptista	1
+Ioulia Markou	1
+Y. Jeffrey Yang	1
+Andrés Catena	1
+Peter Widhalm	1
+Gregorio Gecchele	1
+Xiaolu Rao	1
+Chen-Nee Chuah	1
+Olle Järv	1
+Mohamed Haitam Laarabi	1
+Alireza Mostafizi	1
+Alexander Pfaffinger	1
+Guillaume Rérat	1
+Larry Head	1
+Julian Wolfson	1
+Lisa Dorn	1
+Marco Giaroli	1
+Vincent Benezech	1
+Rui Chen	1
+Miquel Angel Piera	1
+Bradley Sturt	1
+Li-Hsien Yen	1
+Tom Erik Julsrud	1
+Arnab Bhattacharya	1
+Qinhua Wang	1
+Anupam Srivastava	1
+Mingheng Zhang	1
+Sung-Seok Ko	1
+Milena Studic	1
+Hamidreza Amindavar	1
+Donggen Wang	1
+Anne Liret	1
+Yuanguang Zhong	1
+Ghazan Khan	1
+Yi He	1
+Brian L. Smith	1
+Yuntao Guo	1
+Duanfeng Chu	1
+Shifeng Wang	1
+Steven Logghe	1
+Anthony Chen	1
+Yong Bai	1
+Zhimin Tao	1
+Chong Zi Xiao	1
+Abderrafiaa Koukam	1
+M. Ayala Botto	1
+C. Michael Walton	1
+Toshiyuki Yamamoto	1
+Erik Larsson	1
+Alexander Brown	1
+Manfred Gronalt	1
+Chengbo Ai	1
+Shengbo Eben Li	1
+Habib Chabchoub	1
+Diana Jorge	1
+Jens Parbo	1
+Victor Lee	1
+Digvijay S. Pawar	1
+Santiago Muelas	1
+Giulio Erberto Cantarella	1
+Zhe Sun	1
+Diamantis Manolis	1
+M.D. Simoni	1
+J.J. Ruiz-Aguilar	1
+Dilek Tüzün Aksu	1
+Jingmin Chen	1
+Samuel Coogan	1
+Yuanchang Xie	1
+Zhitao Xiong	1
+Maurice Aron	1
+Tianxiang Fan	1
+Cathy Wu	1
+Jennifer Amourette	1
+Martin Berger	1
+Milos Balac	1
+Yusin Lee	1
+Chao Wu	1
+Chaoyi Shao	1
+S.W. Orr	1
+Jinbao Zhao	1
+Antonio C. de Arruda Jr.	1
+Antonio M.F. Crespo	1
+Ramón R. Pecharromán	1
+Anita Schöbel	1
+Yixiang Yue	1
+Daniel-Ioan Curiac	1
+Erick D. Wikum	1
+S. Tesfamariam	1
+Mohammed Quddus	1
+Lin Xiao	1
+Yuyang Zhou	1
+Vincenzo Gallelli	1
+Ning Guo	1
+Yassine Ruichek	1
+Lei Feng	1
+Carina Fors	1
+Hong Zhang	1
+Maged M. Dessouky	1
+Mostafa Reisi Gahrooei	1
+Francesco Ciari	1
+Lin Yao	1
+Evgenia Suzdaleva	1
+Cindy Cappelle	1
+Behrang Assemi	1
+Julien Monteil	1
+Pascal Venet	1
+Rui Cao	1
+Charlotte Frei	1
+Yu Liu	1
+Fatma Pakdil	1
+Meead Saberi	1
+Buyue Qian	1
+Xiaonan Su	1
+Frédéric Bernardin	1
+Una Benlic	1
+Quan Yuan	1
+Nelson Toh	1
+Hamed Pouryousef	1
+Mark J.M. Sullman	1
+Heng-Soon Gan	1
+Yunjie Zhao	1
+Henk Taale	1
+Jinwoo (Brian) Lee	1
+Qiang Ji	1
+Martine Labbé	1
+Przemysław Szulim	1
+Jarosław Seńko	1
+Cyril Meurie	1
+Sudeshna Sen	1
+Will Recker	1
+Alexandrina Rogozan	1
+Alfredo Garcia	1
+Rémy Chevrier	1
+Chenyi Chen	1
+Andrea R. Bill	1
+Gaetano Giunta	1
+J. Pauwelussen	1
+Ali S. Al-Ghamdi	1
+Sofie Burggraeve	1
+Michael Mcdonald	1
+Ivan Nagy	1
+Menglin Wang	1
+Xin-Gang Li	1
+Kai Nagel	1
+R.A. Waraich	1
+Michel Fogli	1
+Michael Kuby	1
+Rodrigo Moretti Branchini	1
+Abdelaziz Bensrhair	1
+Kye Hyun Kim	1
+Carlos Bento	1
+Liteng Zha	1
+John Ferguson	1
+Melisa Pérez	1
+Aruna Sivakumar	1
+G. Cerni	1
+Kyandoghere Kyamakya	1
+Yisheng Lv	1
+Cameron Kergaye	1
+Masao Kuwahara	1
+Frances Sprei	1
+S. Higuera de Frutos	1
+Christian Will	1
+Sanghoon Son	1
+Qizhang Liu	1
+Alessandro Calvi	1
+Chao Zhang	1
+Richard Lallemand	1
+Per Olof Arnäs	1
+Shadi Sharif Azadeh	1
+Vincent Aguiléra	1
+Tyron Louw	1
+Yunteng Lao	1
+Nikola Bešinović	1
+Isabel Del Pozo	1
+Mahnam Saeednia	1
+Shadi Djavadian	1
+Juan Jose Rebollo	1
+Mehdi Rafati Fard	1
+Michal Bíl	1
+Guang-ming Xu	1
+Yosuke Ishiguro	1
+Alessia Violin	1
+Jean-Marc Blosseville	1
+Dennis Huisman	1
+Anthony D. Patire	1
+Venkat Krishnan	1
+Kejie Lu	1
+Md. Mazharul Haque	1
+Nebojša Bojović	1
+Mickaël Messias	1
+Lance Sherry	1
+Farahnaz Omidi	1
+Zheng Yu Wang	1
+Mehmet Ali Silgu	1
+Mo Wu	1
+Feng Li	1
+Amir H. Ghods	1
+Moises Goldszmidt	1
+Ardalan Vahidi	1
+Feng Ma	1
+W. Hare	1
+Ulrich Weidmann	1
+Zhixia Li	1
+Michael Frumin	1
+Xiao-Feng Xie	1
+Peiqing Li	1
+S. Kluge	1
+Zhennan Ming	1
+Ricardo Giesen	1
+Hongfei Li	1
+Jean-François Cordeau	1
+Ji Young Park	1
+Bo Cheng	1
+Kristofer D. Kusano	1
+Matthias Jarke	1
+Michal Pěchouček	1
+Hubert Ley	1
+Yunchao Qu	1
+Hwasoo Yeo	1
+Yi Gong	1
+Carlos Gaviria	1
+Stephen H. Richards	1
+Vinayak Dixit	1
+Thomas Albrecht	1
+Josep M. Aymamí	1
+Mogens Fosgerau	1
+Gregory S. Macfarlane	1
+Adamo Bosco	1
+Zhengyao Yu	1
+Ram Rajagopal	1
+Marija Ostojic	1
+Reng-Kui Liu	1
+Lei Lin	1
+Pietro Tricoli	1
+Massimiliano Zanin	1
+Güvenç Şahin	1
+Christelle Guéret	1
+A. Orellana	1
+Caitlin D. Cottrill	1
+Lasmini Ambarwati	1
+Jing Xun	1
+Mohamed Ali Aloulou	1
+Guihua Wang	1
+Emma Frejinger	1
+Hiroshi Shimamoto	1
+James Loy	1
+Yingjie Zhang	1
+Waqar Malik	1
+Antonio LaTorre	1
+Carolina Osorio Pizano	1
+Matthias D. Galus	1
+J. Espinosa	1
+Dawn Woodard	1
+Mohamed M. Ahmed	1
+Mizanur Rahman	1
+Yong Xiang	1
+Mehdi Zamanipour	1
+Ton J.J. van den Boom	1
+Michael A. Madas	1
+Thanh Lam Hoang	1
+Raúl Brey	1
+Guangdong Feng	1
+Simona Mancini	1
+Xiaohua Zhao	1
+Luca Bertazzi	1
+Sandeep Mudigonda	1
+A.Y. Kibangou	1
+M. Bierlaire	1
+Juan Argote-Cabañero	1
+Azedine Boulmakoul	1
+Yushi Suma	1
+Daehan Kwak	1
+Sajimon Abraham	1
+Thorsten Schütte	1
+Lily Elefteriadou	1
+Mohamed Ben Ahmed	1
+Ethan Puchaty	1
+Huseyin Ceylan	1
+Luis F. Miranda-Moreno	1
+David Meijer	1
+Xiumin Chu	1
+Cristina Conde	1
+Sajad Shiravi	1
+Ghada Moussa	1
+M. Karlsson	1
+Berna Dengiz	1
+M. Gentili	1
+Mohammed Elhenawy	1
+Jin-Yong Chen	1
+Torsten Klug	1
+Christian Prins	1
+Aurelius A. Zilko	1
+Demetrio Laganà	1
+Peter J. Jin	1
+Marco Pranzo	1
+Gonçalo Duarte	1
+Jacek Dybała	1
+Tianlu Pan	1
+Gizem Çavuşlar	1
+José-María Peña	1
+John Ash	1
+Yukiko Wakita	1
+Rashid A. Waraich	1
+Alessandra Pascale	1
+Bülent Çatay	1
+Piyushimita (Vonu) Thakuriah	1
+Birgit Jaekel	1
+John Shawe-Taylor	1
+Zhenguo Yi	1
+Yao Sun	1
+Burak Cesme	1
+Rajan Batta	1
+Nianfeng Wan	1
+A. Tympakianaki	1
+Chengxuan Cao	1
+Yoram Shiftan	1
+Xiaolin Gong	1
+Paul Alves	1
+Eric Bideaux	1
+Hideki Nakamura	1
+Zhen Huang	1
+Xiang-Yang Li	1
+Jianhe Du	1
+Athina Tympakianaki	1
+James C. Chu	1
+Adel M. Alimi	1
+Hamsa Balakrishnan	1
+Lars Abrahamsson	1
+L. Douglas Smith	1
+Dan Wu	1
+Yong-Hong Wu	1
+P. Sojan Lal	1
+Andreas Tapani	1
+Utkan Eryilmaz	1
+Matthew Wright	1
+Francisco Moraes Oliveira-Neto	1
+István Varga	1
+Chris Gearhart	1
+Wei-Hua Lin	1
+Li Wang	1
+Yi-Ming Kuo	1
+Di Wu	1
+Amedeo Odoni	1
+Chen-Yang Yan	1
+Changhyun Kwon	1
+Marion Berbineau	1
+Gabriel Agamennoni	1
+Sebastian Burghardt	1
+Alireza Nazemi	1
+Xing Zheng	1
+Han-Tsung Liou	1
+A. Stuiver	1
+Wei Meiyi	1
+Linlin Liu	1
+Enrico Steiger	1
+Rafael Palacios	1
+Yu-Chiun Chiou	1
+Toni Guasch	1
+Siyuan Gong	1
+Rajesh Paleti	1
+Wei Zhang	1
+Junil Choi	1
+Saïd Mammar	1
+Frédéric Armetta	1
+Karel A. Brookhuis	1
+Mario Miler	1
+Gabriella Mazzulla	1
+Fallou Gueye	1
+Lei Tang	1
+Vojin Tosic	1
+Ondřej Vaněk	1
+M.K Tiwari	1
+Philip B. Freeze	1
+Jay Przybyla	1
+Shengyin Li	1
+Ondřej Hrstka	1
+Joaquín Rodriguez	1

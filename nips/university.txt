@@ -1,0 +1,103 @@
+cmu
+college
+school
+university
+mit
+berkeley
+Universit¨¦
+The Salk Institute for Biological Studies
+Universit¨¦ Paris Diderot
+UC San Diego
+Universit¨¦ Paris Dauphine
+Universitat Pompeu Fabra
+ANU
+POSTECH
+UMass Amherst
+HKUST
+ETH Zurich
+UC Irvine
+KU Leuven
+Chinese Academy of Sciences
+Universit¨¦ catholique de Louva
+Universit¨¦ Paris Sud
+EPFL
+National Univ of Singapore
+UT Austin
+Institut de Math¨¦matiques de Toulouse
+Ecole Polytechnique Federale de Lausanne (EPFL)
+TU Darmstadt
+NYU
+PKU
+UCSD
+UMass CICS
+Virginia Tech
+Georgia Institute of Technolog
+Oxford
+Univ of California Irvine
+DTU
+Istituto Italiano di Tecnologia
+UC Davis
+Stanford
+Universidad Aut¨®noma de Madrid
+UCLA
+NJUST
+Universit¨¦ C?te d'Azur
+UCSB
+T¨¦l¨¦com ParisTech
+CUHK
+TU Dortmund
+Skolkovo Institute of Science and Technology
+DGIST
+Purdue
+UT-Austin
+TU Dresden
+UC Merced
+Massachusetts Institute of Tec
+U. of Illinois at Chicago
+KAIST
+Georgia Tech
+Technion - Israel institute of technology
+TAU
+Institute of Theoretical Physics
+Institut National de la Recherche Agronomique
+Skolkovo Inst. of Sc and Tech
+Univ. Grenoble Alpes
+ANU
+UIUC
+UBC
+IIT
+EPFL Lausanne
+Tokyo Institute of Technology
+Weizmann Institute of Science
+Univ. of Southern California
+Universit¨¦ Toulouse 3 - Paul Sabatier
+Skoltech
+USC
+TU Berlin
+TTI Chicago
+Montreal
+Institute for Advanced Study
+IST Austria
+CentraleSupelec
+Universit¨¦ Bordeaux
+Universitat Aut¨°noma de Barcelona
+Institute of Neuroinformatics - UZH/ETH Z¨¹rich
+U. Paris-Saclay & ChaLearn
+ETH
+Technische Universitaet Darmstadt
+Massachusetts Institute of Technology
+U. Montreal
+UJM Saint-Etienne
+Indian Institute of Science
+Caltech
+Technion
+Telecom ParisTech
+NJIT
+TTI-Chicago
+Alberta
+Gatsby Unit
+Rensselaer
+SUNY at Buffalo
+Stony Brook
+UofT
+GREYC
