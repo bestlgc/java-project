@@ -1,0 +1,11 @@
+create database pengkang DEFAULT CHARACTER SET utf8;
+
+create table score_table(
+	id int auto_increment primary key,
+	collegeName varchar(256),
+	year varchar(256),
+	professionName varchar(256),
+	professionNumber varchar(256),
+	scoreFile MediumBlob,
+	fileName varchar(256)
+);

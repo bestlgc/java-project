@@ -23,23 +23,26 @@
 
 	<!-- 访问根路径的时候， /WEB-INF/index.jsp -->
 	<mvc:view-controller path="/" view-name="login" />
-	
+
 	<!-- resolve配置 -->
-	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-	<!-- one of the properties available; the maximum file size in bytes -->
-	<property name="maxUploadSize" value="1073741824"/>
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- one of the properties available; the maximum file size in bytes -->
+		<property name="maxUploadSize" value="1073741824" />
 	</bean>
-	<bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">  
-        <property name="viewClass" value="org.springframework.web.servlet.view.freemarker.FreeMarkerView" />  
-        <property name="suffix" value=".ftl" />  
-        <property name="contentType" value="text/html;charset=utf-8" />  
-        <property name="exposeRequestAttributes" value="true" />  
-        <property name="exposeSessionAttributes" value="true" />  
-        <property name="exposeSpringMacroHelpers" value="true" />  
-        <property name="requestContextAttribute" value="rc"></property>
-        <property name="order" value= "0"/>
-    </bean> 
-    
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.freemarker.FreeMarkerView" />
+		<property name="suffix" value=".ftl" />
+		<property name="contentType" value="text/html;charset=utf-8" />
+		<property name="exposeRequestAttributes" value="true" />
+		<property name="exposeSessionAttributes" value="true" />
+		<property name="exposeSpringMacroHelpers" value="true" />
+		<property name="requestContextAttribute" value="rc"></property>
+		<property name="order" value="0" />
+	</bean>
+
 	<!-- FreeMark 配置 -->
 	<bean id="freemarkerConfig"
 		class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
@@ -54,12 +57,15 @@
 				<prop key="template_exception_handler">ignore</prop>
 			</props>
 		</property>
-		
+
 	</bean>
-	<bean id="defaultViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:order="2">
-        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
-        <property name="contentType" value="text/html"/>
-        <property name="prefix" value="/WEB-INF/"/>
-        <property name="suffix" value=".jsp"/>
-    </bean>
+	<bean id="defaultViewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+		p:order="2">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView" />
+		<property name="contentType" value="text/html" />
+		<property name="prefix" value="/WEB-INF/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
 </beans>
